@@ -19373,3 +19373,1240 @@ Sampler Limit: 32
 [2025.11.06-14.01.11:387][320]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 11230.039062
 [2025.11.06-14.01.11:488][323]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
 [2025.11.06-14.01.11:488][323]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 11230.106445, Update Interval: 302.993866
+[2025.11.06-14.02.31:435][153]LogUObjectHash: Compacting FUObjectHashTables data took   3.02ms
+[2025.11.06-14.02.31:444][153]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/MainLevel' took 0.089
+[2025.11.06-14.02.31:445][153]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Actors/Robot/LimbComponent] ([2] browsable assets)...
+[2025.11.06-14.02.31:445][153]OBJ SavePackage: Finished generating thumbnails for package [/Game/Actors/Robot/LimbComponent]
+[2025.11.06-14.02.31:504][153]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Actors/Robot/LimbComponent_Auto0
+[2025.11.06-14.02.31:504][153]LogSavePackage: Moving '../../../../../../Users/Administrator/Documents/Unreal Projects/UnethicalRobot/Saved/LimbComponent_Auto04179F4AF47EA9D2A899DE2964554B005.tmp' to '../../../../../../Users/Administrator/Documents/Unreal Projects/UnethicalRobot/Saved/Autosaves/Game/Actors/Robot/LimbComponent_Auto0.uasset'
+[2025.11.06-14.02.31:506][153]LogFileHelpers: Auto-saving content packages took 0.062
+[2025.11.06-14.03.01:972][ 35]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.11.06-14.03.02:003][ 35]LogPlayLevel: [PlayLevel] Compiling LimbComponent before play...
+[2025.11.06-14.03.02:319][ 35]LogUObjectHash: Compacting FUObjectHashTables data took   2.97ms
+[2025.11.06-14.03.02:326][ 35]LogPlayLevel: PlayLevel: Blueprint regeneration took 341 ms (1 blueprints)
+[2025.11.06-14.03.02:350][ 35]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainLevel
+[2025.11.06-14.03.02:356][ 35]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005500s)
+[2025.11.06-14.03.02:356][ 35]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainLevel.MainLevel to /Game/UEDPIE_0_MainLevel.MainLevel (0.005569s)
+[2025.11.06-14.03.02:411][ 35]LogUObjectHash: Compacting FUObjectHashTables data took   2.31ms
+[2025.11.06-14.03.02:416][ 35]LogChaosDD: Creating Chaos Debug Draw Scene for world MainLevel
+[2025.11.06-14.03.02:418][ 35]LogPlayLevel: PIE: World Init took: (0.002629s)
+[2025.11.06-14.03.02:420][ 35]LogAudio: Display: Creating Audio Device:                 Id: 70, Scope: Unique, Realtime: True
+[2025.11.06-14.03.02:420][ 35]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.11.06-14.03.02:420][ 35]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.11.06-14.03.02:420][ 35]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.11.06-14.03.02:420][ 35]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.11.06-14.03.02:420][ 35]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.11.06-14.03.02:420][ 35]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.11.06-14.03.02:420][ 35]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.11.06-14.03.02:420][ 35]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.11.06-14.03.02:420][ 35]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.11.06-14.03.02:420][ 35]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.11.06-14.03.02:420][ 35]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.11.06-14.03.02:423][ 35]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.11.06-14.03.02:433][ 35]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Scream (WDM))
+[2025.11.06-14.03.02:433][ 35]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.11.06-14.03.02:433][ 35]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.11.06-14.03.02:433][ 35]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.11.06-14.03.02:435][ 35]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=70
+[2025.11.06-14.03.02:435][ 35]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=70
+[2025.11.06-14.03.02:439][ 35]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=70
+[2025.11.06-14.03.02:439][ 35]LogInit: FAudioDevice initialized with ID 70.
+[2025.11.06-14.03.02:439][ 35]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=70
+[2025.11.06-14.03.02:439][ 35]LogAudio: Display: Audio Device (ID: 70) registered with world 'MainLevel'.
+[2025.11.06-14.03.02:439][ 35]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 70
+[2025.11.06-14.03.02:455][ 35]LogLoad: Game class is 'FunctionalTestGameMode'
+[2025.11.06-14.03.02:458][ 35]LogWorld: Bringing World /Game/UEDPIE_0_MainLevel.MainLevel up for play (max tick rate 0) at 2025.11.06-14.03.02
+[2025.11.06-14.03.02:458][ 35]LogWorld: Bringing up level for play took: 0.003328
+[2025.11.06-14.03.02:462][ 35]LogOnline: OSS: Created online subsystem instance for: :Context_76
+[2025.11.06-14.03.02:464][ 35]LogBlueprintUserMessages: [NODE_AddLimbComponent-0] No parent mesh
+[2025.11.06-14.03.02:464][ 35]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Torso
+[2025.11.06-14.03.02:464][ 35]LogBlueprintUserMessages: [RobotActor_C_1] Changed Parent
+[2025.11.06-14.03.02:465][ 35]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Upperarm_Left
+[2025.11.06-14.03.02:465][ 35]LogBlueprintUserMessages: [RobotActor_C_1] Changed Parent
+[2025.11.06-14.03.02:465][ 35]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Lowerarm_Left
+[2025.11.06-14.03.02:465][ 35]LogBlueprintUserMessages: [RobotActor_C_1] Changed Parent
+[2025.11.06-14.03.02:466][ 35]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Hand_Left
+[2025.11.06-14.03.02:466][ 35]LogBlueprintUserMessages: [RobotActor_C_1] Changed Parent
+[2025.11.06-14.03.02:466][ 35]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Upperarm_Right
+[2025.11.06-14.03.02:466][ 35]LogBlueprintUserMessages: [RobotActor_C_1] Changed Parent
+[2025.11.06-14.03.02:467][ 35]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Lowerarm_Right
+[2025.11.06-14.03.02:467][ 35]LogBlueprintUserMessages: [RobotActor_C_1] Changed Parent
+[2025.11.06-14.03.02:467][ 35]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Hand_Right
+[2025.11.06-14.03.02:467][ 35]LogBlueprintUserMessages: [RobotActor_C_1] Changed Parent
+[2025.11.06-14.03.02:468][ 35]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Hips
+[2025.11.06-14.03.02:468][ 35]LogBlueprintUserMessages: [RobotActor_C_1] Changed Parent
+[2025.11.06-14.03.02:468][ 35]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Thigh_Left
+[2025.11.06-14.03.02:468][ 35]LogBlueprintUserMessages: [RobotActor_C_1] Changed Parent
+[2025.11.06-14.03.02:469][ 35]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Shin_Left
+[2025.11.06-14.03.02:469][ 35]LogBlueprintUserMessages: [RobotActor_C_1] Changed Parent
+[2025.11.06-14.03.02:469][ 35]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Foot_Left
+[2025.11.06-14.03.02:469][ 35]LogBlueprintUserMessages: [RobotActor_C_1] Changed Parent
+[2025.11.06-14.03.02:469][ 35]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Thigh_Right
+[2025.11.06-14.03.02:470][ 35]LogBlueprintUserMessages: [RobotActor_C_1] Changed Parent
+[2025.11.06-14.03.02:470][ 35]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Shin_Right
+[2025.11.06-14.03.02:470][ 35]LogBlueprintUserMessages: [RobotActor_C_1] Changed Parent
+[2025.11.06-14.03.02:470][ 35]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Foot_Right
+[2025.11.06-14.03.02:470][ 35]LogBlueprintUserMessages: [RobotActor_C_1] Changed Parent
+[2025.11.06-14.03.02:470][ 35]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Jaw
+[2025.11.06-14.03.02:470][ 35]LogBlueprintUserMessages: [RobotActor_C_1] Changed Parent
+[2025.11.06-14.03.02:470][ 35]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Neck
+[2025.11.06-14.03.02:471][ 35]LogBlueprintUserMessages: [RobotActor_C_1] Changed Parent
+[2025.11.06-14.03.02:471][ 35]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Head
+[2025.11.06-14.03.02:471][ 35]LogBlueprintUserMessages: [RobotActor_C_1] Changed Parent
+[2025.11.06-14.03.02:471][ 35]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Eye_Right
+[2025.11.06-14.03.02:471][ 35]LogBlueprintUserMessages: [RobotActor_C_1] Changed Parent
+[2025.11.06-14.03.02:471][ 35]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Eye_Left
+[2025.11.06-14.03.02:473][ 35]PIE: Server logged in
+[2025.11.06-14.03.02:476][ 35]PIE: Play in editor total start time 0.492 seconds.
+[2025.11.06-14.03.02:543][ 36]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.11.06-14.03.02:720][ 36]LogPSOHitching: Encountered 1550 PSO creation hitches so far (433 graphics, 1117 compute). 0 of them were precached.
+[2025.11.06-14.03.27:252][882]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.06-14.03.27:252][882]LogWorld: BeginTearingDown for /Game/UEDPIE_0_MainLevel
+[2025.11.06-14.03.27:252][882]LogWorld: UWorld::CleanupWorld for MainLevel, bSessionEnded=true, bCleanupResources=true
+[2025.11.06-14.03.27:253][882]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.06-14.03.27:260][882]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.11.06-14.03.27:271][882]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.06-14.03.27:331][882]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.06-14.03.27:331][882]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 70
+[2025.11.06-14.03.27:332][882]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=70, StreamState=4
+[2025.11.06-14.03.27:334][882]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=70, StreamState=2
+[2025.11.06-14.03.27:346][882]LogUObjectHash: Compacting FUObjectHashTables data took   2.90ms
+[2025.11.06-14.03.27:487][883]LogPlayLevel: Display: Destroying online subsystem :Context_76
+[2025.11.06-14.04.09:590][138]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Engine/MapTemplates/SM_Template_Map_Floor.SM_Template_Map_Floor
+[2025.11.06-14.04.09:621][138]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_7
+[2025.11.06-14.04.09:868][138]LogStreaming: Display: FlushAsyncLoading(681): 1 QueuedPackages, 0 AsyncPackages
+[2025.11.06-14.04.12:004][139]LogPSOHitching: Encountered 1600 PSO creation hitches so far (449 graphics, 1151 compute). 0 of them were precached.
+[2025.11.06-14.04.18:297][300]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2025.11.06-14.04.18:297][300]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.06-14.04.18:427][300]LogUObjectHash: Compacting FUObjectHashTables data took   2.10ms
+[2025.11.06-14.04.22:849][447]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Engine/MapTemplates/SM_Template_Map_Floor.SM_Template_Map_Floor
+[2025.11.06-14.04.22:862][447]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_8
+[2025.11.06-14.04.26:864][509]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2025.11.06-14.04.26:864][509]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.06-14.04.27:028][509]LogUObjectHash: Compacting FUObjectHashTables data took   3.11ms
+[2025.11.06-14.06.21:650][151]LogUObjectHash: Compacting FUObjectHashTables data took   2.47ms
+[2025.11.06-14.06.47:357][983]LogPSOHitching: Encountered 1650 PSO creation hitches so far (471 graphics, 1179 compute). 0 of them were precached.
+[2025.11.06-14.06.54:742][232]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2025.11.06-14.06.54:759][232]LogContentBrowser: Creating deferred item: NewFolder
+[2025.11.06-14.06.54:788][233]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2025.11.06-14.06.57:398][368]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 11576.100586
+[2025.11.06-14.06.57:479][373]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.06-14.06.57:479][373]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 11576.163086, Update Interval: 302.341980
+[2025.11.06-14.06.59:888][494]LogContentBrowser: Attempting asset rename: NewFolder -> Player
+[2025.11.06-14.06.59:888][494]LogContentBrowser: End creating deferred item NewFolder
+[2025.11.06-14.08.08:398][264]LogSlate: Window 'Pick Parent Class' being destroyed
+[2025.11.06-14.08.08:412][264]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2025.11.06-14.08.08:424][264]LogContentBrowser: Creating deferred item: NewBlueprint
+[2025.11.06-14.08.08:485][266]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2025.11.06-14.08.13:797][527]LogContentBrowser: Attempting asset rename: NewBlueprint -> CustomPawn
+[2025.11.06-14.08.13:815][527]LogContentBrowser: End creating deferred item NewBlueprint
+[2025.11.06-14.09.10:463][858]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Actors/Player/CustomPawn.CustomPawn
+[2025.11.06-14.09.10:463][858]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_9
+[2025.11.06-14.09.26:154][244]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.11.06-14.09.26:167][244]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.11.06-14.09.26:167][244]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainLevel
+[2025.11.06-14.09.26:173][244]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006124s)
+[2025.11.06-14.09.26:173][244]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainLevel.MainLevel to /Game/UEDPIE_0_MainLevel.MainLevel (0.006195s)
+[2025.11.06-14.09.26:287][244]LogUObjectHash: Compacting FUObjectHashTables data took   2.53ms
+[2025.11.06-14.09.26:294][244]LogChaosDD: Creating Chaos Debug Draw Scene for world MainLevel
+[2025.11.06-14.09.26:296][244]LogPlayLevel: PIE: World Init took: (0.002660s)
+[2025.11.06-14.09.26:298][244]LogAudio: Display: Creating Audio Device:                 Id: 71, Scope: Unique, Realtime: True
+[2025.11.06-14.09.26:298][244]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.11.06-14.09.26:298][244]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.11.06-14.09.26:298][244]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.11.06-14.09.26:299][244]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.11.06-14.09.26:299][244]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.11.06-14.09.26:299][244]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.11.06-14.09.26:299][244]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.11.06-14.09.26:299][244]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.11.06-14.09.26:299][244]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.11.06-14.09.26:299][244]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.11.06-14.09.26:299][244]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.11.06-14.09.26:302][244]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.11.06-14.09.26:311][244]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Scream (WDM))
+[2025.11.06-14.09.26:311][244]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.11.06-14.09.26:311][244]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.11.06-14.09.26:311][244]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.11.06-14.09.26:312][244]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=71
+[2025.11.06-14.09.26:312][244]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=71
+[2025.11.06-14.09.26:316][244]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=71
+[2025.11.06-14.09.26:316][244]LogInit: FAudioDevice initialized with ID 71.
+[2025.11.06-14.09.26:316][244]LogAudio: Display: Audio Device (ID: 71) registered with world 'MainLevel'.
+[2025.11.06-14.09.26:316][244]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=71
+[2025.11.06-14.09.26:316][244]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 71
+[2025.11.06-14.09.26:331][244]LogLoad: Game class is 'FunctionalTestGameMode'
+[2025.11.06-14.09.26:334][244]LogWorld: Bringing World /Game/UEDPIE_0_MainLevel.MainLevel up for play (max tick rate 0) at 2025.11.06-14.09.26
+[2025.11.06-14.09.26:335][244]LogWorld: Bringing up level for play took: 0.003119
+[2025.11.06-14.09.26:338][244]LogOnline: OSS: Created online subsystem instance for: :Context_80
+[2025.11.06-14.09.26:340][244]LogBlueprintUserMessages: [NODE_AddLimbComponent-0] No parent mesh
+[2025.11.06-14.09.26:340][244]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Torso
+[2025.11.06-14.09.26:340][244]LogBlueprintUserMessages: [RobotActor_C_1] Changed Parent
+[2025.11.06-14.09.26:341][244]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Upperarm_Left
+[2025.11.06-14.09.26:341][244]LogBlueprintUserMessages: [RobotActor_C_1] Changed Parent
+[2025.11.06-14.09.26:342][244]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Lowerarm_Left
+[2025.11.06-14.09.26:342][244]LogBlueprintUserMessages: [RobotActor_C_1] Changed Parent
+[2025.11.06-14.09.26:342][244]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Hand_Left
+[2025.11.06-14.09.26:342][244]LogBlueprintUserMessages: [RobotActor_C_1] Changed Parent
+[2025.11.06-14.09.26:343][244]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Upperarm_Right
+[2025.11.06-14.09.26:343][244]LogBlueprintUserMessages: [RobotActor_C_1] Changed Parent
+[2025.11.06-14.09.26:343][244]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Lowerarm_Right
+[2025.11.06-14.09.26:343][244]LogBlueprintUserMessages: [RobotActor_C_1] Changed Parent
+[2025.11.06-14.09.26:344][244]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Hand_Right
+[2025.11.06-14.09.26:344][244]LogBlueprintUserMessages: [RobotActor_C_1] Changed Parent
+[2025.11.06-14.09.26:344][244]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Hips
+[2025.11.06-14.09.26:344][244]LogBlueprintUserMessages: [RobotActor_C_1] Changed Parent
+[2025.11.06-14.09.26:345][244]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Thigh_Left
+[2025.11.06-14.09.26:345][244]LogBlueprintUserMessages: [RobotActor_C_1] Changed Parent
+[2025.11.06-14.09.26:345][244]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Shin_Left
+[2025.11.06-14.09.26:345][244]LogBlueprintUserMessages: [RobotActor_C_1] Changed Parent
+[2025.11.06-14.09.26:345][244]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Foot_Left
+[2025.11.06-14.09.26:346][244]LogBlueprintUserMessages: [RobotActor_C_1] Changed Parent
+[2025.11.06-14.09.26:346][244]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Thigh_Right
+[2025.11.06-14.09.26:346][244]LogBlueprintUserMessages: [RobotActor_C_1] Changed Parent
+[2025.11.06-14.09.26:346][244]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Shin_Right
+[2025.11.06-14.09.26:346][244]LogBlueprintUserMessages: [RobotActor_C_1] Changed Parent
+[2025.11.06-14.09.26:346][244]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Foot_Right
+[2025.11.06-14.09.26:346][244]LogBlueprintUserMessages: [RobotActor_C_1] Changed Parent
+[2025.11.06-14.09.26:346][244]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Jaw
+[2025.11.06-14.09.26:347][244]LogBlueprintUserMessages: [RobotActor_C_1] Changed Parent
+[2025.11.06-14.09.26:347][244]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Neck
+[2025.11.06-14.09.26:347][244]LogBlueprintUserMessages: [RobotActor_C_1] Changed Parent
+[2025.11.06-14.09.26:347][244]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Head
+[2025.11.06-14.09.26:347][244]LogBlueprintUserMessages: [RobotActor_C_1] Changed Parent
+[2025.11.06-14.09.26:347][244]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Eye_Right
+[2025.11.06-14.09.26:347][244]LogBlueprintUserMessages: [RobotActor_C_1] Changed Parent
+[2025.11.06-14.09.26:347][244]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Eye_Left
+[2025.11.06-14.09.26:349][244]PIE: Server logged in
+[2025.11.06-14.09.26:353][244]PIE: Play in editor total start time 0.187 seconds.
+[2025.11.06-14.09.26:426][245]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.11.06-14.09.42:192][647]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.06-14.09.42:192][647]LogWorld: BeginTearingDown for /Game/UEDPIE_0_MainLevel
+[2025.11.06-14.09.42:192][647]LogWorld: UWorld::CleanupWorld for MainLevel, bSessionEnded=true, bCleanupResources=true
+[2025.11.06-14.09.42:193][647]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.06-14.09.42:233][647]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.11.06-14.09.42:248][647]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.06-14.09.42:325][647]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.11.06-14.09.42:325][647]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 71
+[2025.11.06-14.09.42:325][647]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=71, StreamState=4
+[2025.11.06-14.09.42:328][647]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=71, StreamState=2
+[2025.11.06-14.09.42:337][647]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.06-14.09.42:344][647]LogUObjectHash: Compacting FUObjectHashTables data took   4.05ms
+[2025.11.06-14.09.42:508][648]LogPlayLevel: Display: Destroying online subsystem :Context_80
+[2025.11.06-14.09.43:311][652]LogPSOHitching: Encountered 1700 PSO creation hitches so far (499 graphics, 1201 compute). 0 of them were precached.
+[2025.11.06-14.10.05:198][444]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2025.11.06-14.10.05:198][444]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.06-14.10.05:331][444]LogUObjectHash: Compacting FUObjectHashTables data took   3.14ms
+[2025.11.06-14.12.08:882][603]LogEditorTransaction: Undo Resize Node
+[2025.11.06-14.12.32:087][174]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 11910.767578
+[2025.11.06-14.12.32:210][177]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.06-14.12.32:210][177]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 11910.850586, Update Interval: 351.192352
+[2025.11.06-14.12.44:119][461]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.06-14.12.44:183][461]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Actors/Robot/LimbComponent] ([2] browsable assets)...
+[2025.11.06-14.12.44:183][461]OBJ SavePackage: Finished generating thumbnails for package [/Game/Actors/Robot/LimbComponent]
+[2025.11.06-14.12.44:183][461]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Actors/Robot/LimbComponent" FILE="../../../../../../Users/Administrator/Documents/Unreal Projects/UnethicalRobot/Content/Actors/Robot/LimbComponent.uasset" SILENT=true
+[2025.11.06-14.12.44:229][461]LogSavePackage: Moving output files for package: /Game/Actors/Robot/LimbComponent
+[2025.11.06-14.12.44:230][461]LogSavePackage: Moving '../../../../../../Users/Administrator/Documents/Unreal Projects/UnethicalRobot/Saved/LimbComponentA0E5E35D4FCB8186388D15894B935CA0.tmp' to '../../../../../../Users/Administrator/Documents/Unreal Projects/UnethicalRobot/Content/Actors/Robot/LimbComponent.uasset'
+[2025.11.06-14.12.44:254][461]LogFileHelpers: InternalPromptForCheckoutAndSave took 134.386 ms (total: 21.1 sec)
+[2025.11.06-14.12.44:331][461]LogContentValidation: Display: Starting to validate 1 assets
+[2025.11.06-14.12.44:331][461]LogContentValidation: Enabled validators:
+[2025.11.06-14.12.44:331][461]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.06-14.12.44:331][461]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.06-14.12.44:332][461]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.06-14.12.44:332][461]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.06-14.12.44:332][461]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.06-14.12.44:332][461]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.06-14.12.44:332][461]AssetCheck: /Game/Actors/Robot/LimbComponent Validating asset
+[2025.11.06-14.12.45:979][498]LogUObjectHash: Compacting FUObjectHashTables data took   2.85ms
+[2025.11.06-14.13.02:034][898]LogUObjectHash: Compacting FUObjectHashTables data took   2.80ms
+[2025.11.06-14.13.03:162][916]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.06-14.13.03:235][916]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Actors/Robot/LimbComponent] ([2] browsable assets)...
+[2025.11.06-14.13.03:235][916]OBJ SavePackage: Finished generating thumbnails for package [/Game/Actors/Robot/LimbComponent]
+[2025.11.06-14.13.03:235][916]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Actors/Robot/LimbComponent" FILE="../../../../../../Users/Administrator/Documents/Unreal Projects/UnethicalRobot/Content/Actors/Robot/LimbComponent.uasset" SILENT=true
+[2025.11.06-14.13.03:282][916]LogSavePackage: Moving output files for package: /Game/Actors/Robot/LimbComponent
+[2025.11.06-14.13.03:282][916]LogSavePackage: Moving '../../../../../../Users/Administrator/Documents/Unreal Projects/UnethicalRobot/Saved/LimbComponent56D9E88149C41D901AE61483770D60C1.tmp' to '../../../../../../Users/Administrator/Documents/Unreal Projects/UnethicalRobot/Content/Actors/Robot/LimbComponent.uasset'
+[2025.11.06-14.13.03:303][916]LogFileHelpers: InternalPromptForCheckoutAndSave took 140.648 ms (total: 21.3 sec)
+[2025.11.06-14.13.03:384][916]LogContentValidation: Display: Starting to validate 1 assets
+[2025.11.06-14.13.03:384][916]LogContentValidation: Enabled validators:
+[2025.11.06-14.13.03:384][916]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.06-14.13.03:384][916]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.06-14.13.03:384][916]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.06-14.13.03:384][916]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.06-14.13.03:384][916]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.06-14.13.03:384][916]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.06-14.13.03:384][916]AssetCheck: /Game/Actors/Robot/LimbComponent Validating asset
+[2025.11.06-14.13.47:591][ 21]LogUObjectHash: Compacting FUObjectHashTables data took   2.98ms
+[2025.11.06-14.13.49:146][ 51]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.06-14.13.49:219][ 51]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Actors/Robot/LimbComponent] ([2] browsable assets)...
+[2025.11.06-14.13.49:220][ 51]OBJ SavePackage: Finished generating thumbnails for package [/Game/Actors/Robot/LimbComponent]
+[2025.11.06-14.13.49:220][ 51]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Actors/Robot/LimbComponent" FILE="../../../../../../Users/Administrator/Documents/Unreal Projects/UnethicalRobot/Content/Actors/Robot/LimbComponent.uasset" SILENT=true
+[2025.11.06-14.13.49:269][ 51]LogSavePackage: Moving output files for package: /Game/Actors/Robot/LimbComponent
+[2025.11.06-14.13.49:270][ 51]LogSavePackage: Moving '../../../../../../Users/Administrator/Documents/Unreal Projects/UnethicalRobot/Saved/LimbComponent96A8EED743C5D278B48897912D7190B7.tmp' to '../../../../../../Users/Administrator/Documents/Unreal Projects/UnethicalRobot/Content/Actors/Robot/LimbComponent.uasset'
+[2025.11.06-14.13.49:294][ 51]LogFileHelpers: InternalPromptForCheckoutAndSave took 147.262 ms (total: 21.4 sec)
+[2025.11.06-14.13.49:368][ 51]LogContentValidation: Display: Starting to validate 1 assets
+[2025.11.06-14.13.49:369][ 51]LogContentValidation: Enabled validators:
+[2025.11.06-14.13.49:369][ 51]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.06-14.13.49:369][ 51]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.06-14.13.49:369][ 51]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.06-14.13.49:369][ 51]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.06-14.13.49:369][ 51]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.06-14.13.49:369][ 51]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.06-14.13.49:369][ 51]AssetCheck: /Game/Actors/Robot/LimbComponent Validating asset
+[2025.11.06-14.13.51:185][ 96]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.06-14.13.51:235][ 96]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Actors/RobotActor] ([2] browsable assets)...
+[2025.11.06-14.13.51:336][ 96]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Actors/RobotActor.RobotActor]
+[2025.11.06-14.13.51:336][ 96]OBJ SavePackage: Finished generating thumbnails for package [/Game/Actors/RobotActor]
+[2025.11.06-14.13.51:336][ 96]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Actors/RobotActor" FILE="../../../../../../Users/Administrator/Documents/Unreal Projects/UnethicalRobot/Content/Actors/RobotActor.uasset" SILENT=true
+[2025.11.06-14.13.51:390][ 96]LogSavePackage: Moving output files for package: /Game/Actors/RobotActor
+[2025.11.06-14.13.51:391][ 96]LogSavePackage: Moving '../../../../../../Users/Administrator/Documents/Unreal Projects/UnethicalRobot/Saved/RobotActor708C476343E4795444BA6BB9BAE0CF9C.tmp' to '../../../../../../Users/Administrator/Documents/Unreal Projects/UnethicalRobot/Content/Actors/RobotActor.uasset'
+[2025.11.06-14.13.51:411][ 96]LogFileHelpers: InternalPromptForCheckoutAndSave took 226.024 ms (total: 21.6 sec)
+[2025.11.06-14.13.51:486][ 96]LogContentValidation: Display: Starting to validate 1 assets
+[2025.11.06-14.13.51:486][ 96]LogContentValidation: Enabled validators:
+[2025.11.06-14.13.51:486][ 96]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.06-14.13.51:486][ 96]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.06-14.13.51:486][ 96]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.06-14.13.51:486][ 96]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.06-14.13.51:486][ 96]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.06-14.13.51:486][ 96]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.06-14.13.51:486][ 96]AssetCheck: /Game/Actors/RobotActor Validating asset
+[2025.11.06-14.13.54:706][212]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.11.06-14.13.54:718][212]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.11.06-14.13.54:719][212]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainLevel
+[2025.11.06-14.13.54:726][212]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006660s)
+[2025.11.06-14.13.54:726][212]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainLevel.MainLevel to /Game/UEDPIE_0_MainLevel.MainLevel (0.006849s)
+[2025.11.06-14.13.54:799][212]LogUObjectHash: Compacting FUObjectHashTables data took   3.05ms
+[2025.11.06-14.13.54:807][212]LogChaosDD: Creating Chaos Debug Draw Scene for world MainLevel
+[2025.11.06-14.13.54:810][212]LogPlayLevel: PIE: World Init took: (0.002855s)
+[2025.11.06-14.13.54:811][212]LogAudio: Display: Creating Audio Device:                 Id: 72, Scope: Unique, Realtime: True
+[2025.11.06-14.13.54:811][212]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.11.06-14.13.54:811][212]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.11.06-14.13.54:811][212]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.11.06-14.13.54:811][212]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.11.06-14.13.54:812][212]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.11.06-14.13.54:812][212]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.11.06-14.13.54:812][212]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.11.06-14.13.54:812][212]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.11.06-14.13.54:812][212]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.11.06-14.13.54:812][212]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.11.06-14.13.54:812][212]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.11.06-14.13.54:815][212]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.11.06-14.13.54:825][212]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Scream (WDM))
+[2025.11.06-14.13.54:825][212]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.11.06-14.13.54:825][212]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.11.06-14.13.54:825][212]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.11.06-14.13.54:826][212]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=72
+[2025.11.06-14.13.54:826][212]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=72
+[2025.11.06-14.13.54:831][212]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=72
+[2025.11.06-14.13.54:831][212]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=72
+[2025.11.06-14.13.54:831][212]LogInit: FAudioDevice initialized with ID 72.
+[2025.11.06-14.13.54:831][212]LogAudio: Display: Audio Device (ID: 72) registered with world 'MainLevel'.
+[2025.11.06-14.13.54:831][212]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 72
+[2025.11.06-14.13.54:837][212]LogLoad: Game class is 'FunctionalTestGameMode'
+[2025.11.06-14.13.54:840][212]LogWorld: Bringing World /Game/UEDPIE_0_MainLevel.MainLevel up for play (max tick rate 0) at 2025.11.06-14.13.54
+[2025.11.06-14.13.54:840][212]LogWorld: Bringing up level for play took: 0.002574
+[2025.11.06-14.13.54:844][212]LogOnline: OSS: Created online subsystem instance for: :Context_81
+[2025.11.06-14.13.54:846][212]LogBlueprintUserMessages: [NODE_AddLimbComponent-0] No parent mesh
+[2025.11.06-14.13.54:846][212]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Torso
+[2025.11.06-14.13.54:846][212]LogBlueprintUserMessages: [RobotActor_C_1] Changed Parent
+[2025.11.06-14.13.54:847][212]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Upperarm_Left
+[2025.11.06-14.13.54:847][212]LogBlueprintUserMessages: [RobotActor_C_1] Changed Parent
+[2025.11.06-14.13.54:847][212]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Lowerarm_Left
+[2025.11.06-14.13.54:848][212]LogBlueprintUserMessages: [RobotActor_C_1] Changed Parent
+[2025.11.06-14.13.54:848][212]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Hand_Left
+[2025.11.06-14.13.54:848][212]LogBlueprintUserMessages: [RobotActor_C_1] Changed Parent
+[2025.11.06-14.13.54:849][212]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Upperarm_Right
+[2025.11.06-14.13.54:849][212]LogBlueprintUserMessages: [RobotActor_C_1] Changed Parent
+[2025.11.06-14.13.54:849][212]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Lowerarm_Right
+[2025.11.06-14.13.54:850][212]LogBlueprintUserMessages: [RobotActor_C_1] Changed Parent
+[2025.11.06-14.13.54:850][212]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Hand_Right
+[2025.11.06-14.13.54:850][212]LogBlueprintUserMessages: [RobotActor_C_1] Changed Parent
+[2025.11.06-14.13.54:851][212]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Hips
+[2025.11.06-14.13.54:851][212]LogBlueprintUserMessages: [RobotActor_C_1] Changed Parent
+[2025.11.06-14.13.54:851][212]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Thigh_Left
+[2025.11.06-14.13.54:852][212]LogBlueprintUserMessages: [RobotActor_C_1] Changed Parent
+[2025.11.06-14.13.54:852][212]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Shin_Left
+[2025.11.06-14.13.54:852][212]LogBlueprintUserMessages: [RobotActor_C_1] Changed Parent
+[2025.11.06-14.13.54:853][212]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Foot_Left
+[2025.11.06-14.13.54:853][212]LogBlueprintUserMessages: [RobotActor_C_1] Changed Parent
+[2025.11.06-14.13.54:853][212]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Thigh_Right
+[2025.11.06-14.13.54:853][212]LogBlueprintUserMessages: [RobotActor_C_1] Changed Parent
+[2025.11.06-14.13.54:853][212]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Shin_Right
+[2025.11.06-14.13.54:853][212]LogBlueprintUserMessages: [RobotActor_C_1] Changed Parent
+[2025.11.06-14.13.54:853][212]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Foot_Right
+[2025.11.06-14.13.54:854][212]LogBlueprintUserMessages: [RobotActor_C_1] Changed Parent
+[2025.11.06-14.13.54:854][212]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Jaw
+[2025.11.06-14.13.54:854][212]LogBlueprintUserMessages: [RobotActor_C_1] Changed Parent
+[2025.11.06-14.13.54:854][212]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Neck
+[2025.11.06-14.13.54:854][212]LogBlueprintUserMessages: [RobotActor_C_1] Changed Parent
+[2025.11.06-14.13.54:854][212]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Head
+[2025.11.06-14.13.54:854][212]LogBlueprintUserMessages: [RobotActor_C_1] Changed Parent
+[2025.11.06-14.13.54:854][212]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Eye_Right
+[2025.11.06-14.13.54:854][212]LogBlueprintUserMessages: [RobotActor_C_1] Changed Parent
+[2025.11.06-14.13.54:854][212]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Eye_Left
+[2025.11.06-14.13.54:856][212]PIE: Server logged in
+[2025.11.06-14.13.54:861][212]PIE: Play in editor total start time 0.143 seconds.
+[2025.11.06-14.13.54:948][213]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.11.06-14.14.11:462][ 37]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.06-14.14.11:463][ 37]LogWorld: BeginTearingDown for /Game/UEDPIE_0_MainLevel
+[2025.11.06-14.14.11:463][ 37]LogWorld: UWorld::CleanupWorld for MainLevel, bSessionEnded=true, bCleanupResources=true
+[2025.11.06-14.14.11:463][ 37]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.06-14.14.11:506][ 37]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.11.06-14.14.11:516][ 37]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.06-14.14.11:570][ 37]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.11.06-14.14.11:571][ 37]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 72
+[2025.11.06-14.14.11:571][ 37]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=72, StreamState=4
+[2025.11.06-14.14.11:574][ 37]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=72, StreamState=2
+[2025.11.06-14.14.11:579][ 37]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.06-14.14.11:585][ 37]LogUObjectHash: Compacting FUObjectHashTables data took   2.79ms
+[2025.11.06-14.14.11:887][ 38]LogPlayLevel: Display: Destroying online subsystem :Context_81
+[2025.11.06-14.14.12:065][ 39]LogPSOHitching: Encountered 1750 PSO creation hitches so far (511 graphics, 1239 compute). 0 of them were precached.
+[2025.11.06-14.15.29:908][948]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.06-14.15.29:989][948]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Actors/RobotActor] ([2] browsable assets)...
+[2025.11.06-14.15.31:571][948]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Actors/RobotActor.RobotActor]
+[2025.11.06-14.15.31:571][948]OBJ SavePackage: Finished generating thumbnails for package [/Game/Actors/RobotActor]
+[2025.11.06-14.15.31:571][948]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Actors/RobotActor" FILE="../../../../../../Users/Administrator/Documents/Unreal Projects/UnethicalRobot/Content/Actors/RobotActor.uasset" SILENT=true
+[2025.11.06-14.15.31:654][948]LogSavePackage: Moving output files for package: /Game/Actors/RobotActor
+[2025.11.06-14.15.31:655][948]LogSavePackage: Moving '../../../../../../Users/Administrator/Documents/Unreal Projects/UnethicalRobot/Saved/RobotActor3CC0B2BD48F5DD314E0FE4ADE570480A.tmp' to '../../../../../../Users/Administrator/Documents/Unreal Projects/UnethicalRobot/Content/Actors/RobotActor.uasset'
+[2025.11.06-14.15.31:686][948]LogFileHelpers: InternalPromptForCheckoutAndSave took 1.77 sec (total: 23.4 sec)
+[2025.11.06-14.15.31:775][948]LogContentValidation: Display: Starting to validate 1 assets
+[2025.11.06-14.15.31:775][948]LogContentValidation: Enabled validators:
+[2025.11.06-14.15.31:775][948]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.06-14.15.31:775][948]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.06-14.15.31:775][948]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.06-14.15.31:775][948]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.06-14.15.31:775][948]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.06-14.15.31:775][948]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.06-14.15.31:775][948]AssetCheck: /Game/Actors/RobotActor Validating asset
+[2025.11.06-14.15.51:689][465]LogUObjectHash: Compacting FUObjectHashTables data took   2.59ms
+[2025.11.06-14.15.53:081][487]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.06-14.15.53:151][487]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Actors/Robot/LimbComponent] ([2] browsable assets)...
+[2025.11.06-14.15.53:151][487]OBJ SavePackage: Finished generating thumbnails for package [/Game/Actors/Robot/LimbComponent]
+[2025.11.06-14.15.53:151][487]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Actors/Robot/LimbComponent" FILE="../../../../../../Users/Administrator/Documents/Unreal Projects/UnethicalRobot/Content/Actors/Robot/LimbComponent.uasset" SILENT=true
+[2025.11.06-14.15.53:198][487]LogSavePackage: Moving output files for package: /Game/Actors/Robot/LimbComponent
+[2025.11.06-14.15.53:199][487]LogSavePackage: Moving '../../../../../../Users/Administrator/Documents/Unreal Projects/UnethicalRobot/Saved/LimbComponentA19225DF41FCAD0A8AC9C690F3F5A576.tmp' to '../../../../../../Users/Administrator/Documents/Unreal Projects/UnethicalRobot/Content/Actors/Robot/LimbComponent.uasset'
+[2025.11.06-14.15.53:225][487]LogFileHelpers: InternalPromptForCheckoutAndSave took 144.591 ms (total: 23.6 sec)
+[2025.11.06-14.15.53:303][487]LogContentValidation: Display: Starting to validate 1 assets
+[2025.11.06-14.15.53:303][487]LogContentValidation: Enabled validators:
+[2025.11.06-14.15.53:303][487]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.06-14.15.53:303][487]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.06-14.15.53:303][487]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.06-14.15.53:303][487]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.06-14.15.53:303][487]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.06-14.15.53:303][487]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.06-14.15.53:303][487]AssetCheck: /Game/Actors/Robot/LimbComponent Validating asset
+[2025.11.06-14.15.59:580][638]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.06-14.15.59:651][638]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Actors/Robot/LimbComponent] ([2] browsable assets)...
+[2025.11.06-14.15.59:651][638]OBJ SavePackage: Finished generating thumbnails for package [/Game/Actors/Robot/LimbComponent]
+[2025.11.06-14.15.59:651][638]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Actors/Robot/LimbComponent" FILE="../../../../../../Users/Administrator/Documents/Unreal Projects/UnethicalRobot/Content/Actors/Robot/LimbComponent.uasset" SILENT=true
+[2025.11.06-14.15.59:696][638]LogSavePackage: Moving output files for package: /Game/Actors/Robot/LimbComponent
+[2025.11.06-14.15.59:697][638]LogSavePackage: Moving '../../../../../../Users/Administrator/Documents/Unreal Projects/UnethicalRobot/Saved/LimbComponent220BB71D4A8BCE3E5705958A07D2E70A.tmp' to '../../../../../../Users/Administrator/Documents/Unreal Projects/UnethicalRobot/Content/Actors/Robot/LimbComponent.uasset'
+[2025.11.06-14.15.59:721][638]LogFileHelpers: InternalPromptForCheckoutAndSave took 141.106 ms (total: 23.7 sec)
+[2025.11.06-14.15.59:805][638]LogContentValidation: Display: Starting to validate 1 assets
+[2025.11.06-14.15.59:805][638]LogContentValidation: Enabled validators:
+[2025.11.06-14.15.59:805][638]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.06-14.15.59:805][638]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.06-14.15.59:805][638]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.06-14.15.59:805][638]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.06-14.15.59:805][638]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.06-14.15.59:805][638]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.06-14.15.59:805][638]AssetCheck: /Game/Actors/Robot/LimbComponent Validating asset
+[2025.11.06-14.16.00:565][654]LogUObjectHash: Compacting FUObjectHashTables data took   2.53ms
+[2025.11.06-14.16.03:609][735]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.11.06-14.16.03:620][735]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.11.06-14.16.03:620][735]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainLevel
+[2025.11.06-14.16.03:628][735]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007450s)
+[2025.11.06-14.16.03:628][735]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainLevel.MainLevel to /Game/UEDPIE_0_MainLevel.MainLevel (0.007519s)
+[2025.11.06-14.16.03:688][735]LogUObjectHash: Compacting FUObjectHashTables data took   2.44ms
+[2025.11.06-14.16.03:696][735]LogChaosDD: Creating Chaos Debug Draw Scene for world MainLevel
+[2025.11.06-14.16.03:699][735]LogPlayLevel: PIE: World Init took: (0.003039s)
+[2025.11.06-14.16.03:701][735]LogAudio: Display: Creating Audio Device:                 Id: 73, Scope: Unique, Realtime: True
+[2025.11.06-14.16.03:701][735]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.11.06-14.16.03:701][735]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.11.06-14.16.03:701][735]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.11.06-14.16.03:701][735]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.11.06-14.16.03:701][735]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.11.06-14.16.03:701][735]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.11.06-14.16.03:701][735]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.11.06-14.16.03:701][735]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.11.06-14.16.03:701][735]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.11.06-14.16.03:701][735]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.11.06-14.16.03:701][735]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.11.06-14.16.03:704][735]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.11.06-14.16.03:714][735]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Scream (WDM))
+[2025.11.06-14.16.03:714][735]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.11.06-14.16.03:714][735]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.11.06-14.16.03:714][735]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.11.06-14.16.03:716][735]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=73
+[2025.11.06-14.16.03:716][735]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=73
+[2025.11.06-14.16.03:720][735]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=73
+[2025.11.06-14.16.03:720][735]LogInit: FAudioDevice initialized with ID 73.
+[2025.11.06-14.16.03:720][735]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=73
+[2025.11.06-14.16.03:720][735]LogAudio: Display: Audio Device (ID: 73) registered with world 'MainLevel'.
+[2025.11.06-14.16.03:720][735]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 73
+[2025.11.06-14.16.03:739][735]LogLoad: Game class is 'FunctionalTestGameMode'
+[2025.11.06-14.16.03:743][735]LogWorld: Bringing World /Game/UEDPIE_0_MainLevel.MainLevel up for play (max tick rate 0) at 2025.11.06-14.16.03
+[2025.11.06-14.16.03:743][735]LogWorld: Bringing up level for play took: 0.003406
+[2025.11.06-14.16.03:746][735]LogOnline: OSS: Created online subsystem instance for: :Context_82
+[2025.11.06-14.16.03:749][735]LogBlueprintUserMessages: [NODE_AddLimbComponent-0] No parent mesh
+[2025.11.06-14.16.03:749][735]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Torso
+[2025.11.06-14.16.03:749][735]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Upperarm_Left
+[2025.11.06-14.16.03:750][735]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Lowerarm_Left
+[2025.11.06-14.16.03:750][735]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Hand_Left
+[2025.11.06-14.16.03:751][735]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Upperarm_Right
+[2025.11.06-14.16.03:752][735]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Lowerarm_Right
+[2025.11.06-14.16.03:753][735]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Hand_Right
+[2025.11.06-14.16.03:753][735]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Hips
+[2025.11.06-14.16.03:754][735]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Thigh_Left
+[2025.11.06-14.16.03:755][735]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Shin_Left
+[2025.11.06-14.16.03:755][735]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Foot_Left
+[2025.11.06-14.16.03:755][735]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Thigh_Right
+[2025.11.06-14.16.03:756][735]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Shin_Right
+[2025.11.06-14.16.03:756][735]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Foot_Right
+[2025.11.06-14.16.03:756][735]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Jaw
+[2025.11.06-14.16.03:756][735]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Neck
+[2025.11.06-14.16.03:756][735]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Head
+[2025.11.06-14.16.03:756][735]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Eye_Right
+[2025.11.06-14.16.03:757][735]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Eye_Left
+[2025.11.06-14.16.03:759][735]PIE: Server logged in
+[2025.11.06-14.16.03:763][735]PIE: Play in editor total start time 0.143 seconds.
+[2025.11.06-14.16.03:871][736]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.11.06-14.16.09:673][908]LogBlueprintUserMessages: [NODE_AddLimbComponent-0] Hello
+[2025.11.06-14.16.13:055][ 35]LogBlueprintUserMessages: [NODE_AddLimbComponent-0] Hello
+[2025.11.06-14.16.16:103][149]LogBlueprintUserMessages: [NODE_AddLimbComponent-0_13] Hello
+[2025.11.06-14.16.18:373][234]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.06-14.16.18:373][234]LogWorld: BeginTearingDown for /Game/UEDPIE_0_MainLevel
+[2025.11.06-14.16.18:373][234]LogWorld: UWorld::CleanupWorld for MainLevel, bSessionEnded=true, bCleanupResources=true
+[2025.11.06-14.16.18:374][234]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.06-14.16.18:406][234]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.11.06-14.16.18:417][234]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.06-14.16.18:478][234]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.11.06-14.16.18:479][234]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 73
+[2025.11.06-14.16.18:479][234]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=73, StreamState=4
+[2025.11.06-14.16.18:481][234]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=73, StreamState=2
+[2025.11.06-14.16.18:488][234]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.06-14.16.18:493][234]LogUObjectHash: Compacting FUObjectHashTables data took   2.74ms
+[2025.11.06-14.16.18:669][234]LogPSOHitching: Encountered 1800 PSO creation hitches so far (526 graphics, 1274 compute). 0 of them were precached.
+[2025.11.06-14.16.18:991][235]LogPlayLevel: Display: Destroying online subsystem :Context_82
+[2025.11.06-14.16.59:481][282]LogUObjectHash: Compacting FUObjectHashTables data took   2.00ms
+[2025.11.06-14.16.59:488][282]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/MainLevel' took 0.067
+[2025.11.06-14.16.59:489][282]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Actors/Robot/LimbComponent] ([2] browsable assets)...
+[2025.11.06-14.16.59:489][282]OBJ SavePackage: Finished generating thumbnails for package [/Game/Actors/Robot/LimbComponent]
+[2025.11.06-14.16.59:538][282]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Actors/Robot/LimbComponent_Auto1
+[2025.11.06-14.16.59:538][282]LogSavePackage: Moving '../../../../../../Users/Administrator/Documents/Unreal Projects/UnethicalRobot/Saved/LimbComponent_Auto109085A774D19C0D19F5185BC3B08CDCD.tmp' to '../../../../../../Users/Administrator/Documents/Unreal Projects/UnethicalRobot/Saved/Autosaves/Game/Actors/Robot/LimbComponent_Auto1.uasset'
+[2025.11.06-14.16.59:540][282]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Actors/Player/CustomPawn] ([2] browsable assets)...
+[2025.11.06-14.16.59:541][282]OBJ SavePackage: Finished generating thumbnails for package [/Game/Actors/Player/CustomPawn]
+[2025.11.06-14.16.59:560][282]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Actors/Player/CustomPawn_Auto1
+[2025.11.06-14.16.59:560][282]LogSavePackage: Moving '../../../../../../Users/Administrator/Documents/Unreal Projects/UnethicalRobot/Saved/CustomPawn_Auto1CDC554D74E6CE1E1CB9E1D94B0536EB9.tmp' to '../../../../../../Users/Administrator/Documents/Unreal Projects/UnethicalRobot/Saved/Autosaves/Game/Actors/Player/CustomPawn_Auto1.uasset'
+[2025.11.06-14.16.59:561][282]LogFileHelpers: Auto-saving content packages took 0.073
+[2025.11.06-14.17.05:431][431]LogUObjectHash: Compacting FUObjectHashTables data took   2.63ms
+[2025.11.06-14.17.06:422][451]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.06-14.17.06:483][451]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Actors/Robot/LimbComponent] ([2] browsable assets)...
+[2025.11.06-14.17.06:483][451]OBJ SavePackage: Finished generating thumbnails for package [/Game/Actors/Robot/LimbComponent]
+[2025.11.06-14.17.06:483][451]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Actors/Robot/LimbComponent" FILE="../../../../../../Users/Administrator/Documents/Unreal Projects/UnethicalRobot/Content/Actors/Robot/LimbComponent.uasset" SILENT=true
+[2025.11.06-14.17.06:528][451]LogSavePackage: Moving output files for package: /Game/Actors/Robot/LimbComponent
+[2025.11.06-14.17.06:529][451]LogSavePackage: Moving '../../../../../../Users/Administrator/Documents/Unreal Projects/UnethicalRobot/Saved/LimbComponent212ECDAC4B76EB9C17F6D580A1CFEA18.tmp' to '../../../../../../Users/Administrator/Documents/Unreal Projects/UnethicalRobot/Content/Actors/Robot/LimbComponent.uasset'
+[2025.11.06-14.17.06:552][451]LogFileHelpers: InternalPromptForCheckoutAndSave took 130.874 ms (total: 23.8 sec)
+[2025.11.06-14.17.06:626][451]LogContentValidation: Display: Starting to validate 1 assets
+[2025.11.06-14.17.06:626][451]LogContentValidation: Enabled validators:
+[2025.11.06-14.17.06:626][451]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.06-14.17.06:626][451]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.06-14.17.06:626][451]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.06-14.17.06:626][451]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.06-14.17.06:626][451]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.06-14.17.06:626][451]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.06-14.17.06:626][451]AssetCheck: /Game/Actors/Robot/LimbComponent Validating asset
+[2025.11.06-14.17.07:871][483]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.11.06-14.17.07:883][483]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.11.06-14.17.07:883][483]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainLevel
+[2025.11.06-14.17.07:889][483]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006157s)
+[2025.11.06-14.17.07:889][483]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainLevel.MainLevel to /Game/UEDPIE_0_MainLevel.MainLevel (0.006221s)
+[2025.11.06-14.17.07:967][483]LogUObjectHash: Compacting FUObjectHashTables data took   2.85ms
+[2025.11.06-14.17.07:975][483]LogChaosDD: Creating Chaos Debug Draw Scene for world MainLevel
+[2025.11.06-14.17.07:978][483]LogPlayLevel: PIE: World Init took: (0.003191s)
+[2025.11.06-14.17.07:980][483]LogAudio: Display: Creating Audio Device:                 Id: 74, Scope: Unique, Realtime: True
+[2025.11.06-14.17.07:980][483]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.11.06-14.17.07:980][483]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.11.06-14.17.07:980][483]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.11.06-14.17.07:980][483]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.11.06-14.17.07:980][483]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.11.06-14.17.07:980][483]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.11.06-14.17.07:980][483]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.11.06-14.17.07:980][483]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.11.06-14.17.07:980][483]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.11.06-14.17.07:980][483]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.11.06-14.17.07:980][483]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.11.06-14.17.07:983][483]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.11.06-14.17.07:995][483]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Scream (WDM))
+[2025.11.06-14.17.07:995][483]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.11.06-14.17.07:995][483]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.11.06-14.17.07:995][483]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.11.06-14.17.07:996][483]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=74
+[2025.11.06-14.17.07:997][483]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=74
+[2025.11.06-14.17.08:001][483]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=74
+[2025.11.06-14.17.08:001][483]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=74
+[2025.11.06-14.17.08:001][483]LogInit: FAudioDevice initialized with ID 74.
+[2025.11.06-14.17.08:001][483]LogAudio: Display: Audio Device (ID: 74) registered with world 'MainLevel'.
+[2025.11.06-14.17.08:001][483]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 74
+[2025.11.06-14.17.08:023][483]LogLoad: Game class is 'FunctionalTestGameMode'
+[2025.11.06-14.17.08:025][483]LogWorld: Bringing World /Game/UEDPIE_0_MainLevel.MainLevel up for play (max tick rate 0) at 2025.11.06-14.17.08
+[2025.11.06-14.17.08:026][483]LogWorld: Bringing up level for play took: 0.003197
+[2025.11.06-14.17.08:030][483]LogOnline: OSS: Created online subsystem instance for: :Context_83
+[2025.11.06-14.17.08:032][483]LogBlueprintUserMessages: [NODE_AddLimbComponent-0] No parent mesh
+[2025.11.06-14.17.08:032][483]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Torso
+[2025.11.06-14.17.08:033][483]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Upperarm_Left
+[2025.11.06-14.17.08:034][483]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Lowerarm_Left
+[2025.11.06-14.17.08:035][483]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Hand_Left
+[2025.11.06-14.17.08:035][483]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Upperarm_Right
+[2025.11.06-14.17.08:036][483]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Lowerarm_Right
+[2025.11.06-14.17.08:036][483]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Hand_Right
+[2025.11.06-14.17.08:037][483]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Hips
+[2025.11.06-14.17.08:038][483]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Thigh_Left
+[2025.11.06-14.17.08:038][483]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Shin_Left
+[2025.11.06-14.17.08:039][483]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Foot_Left
+[2025.11.06-14.17.08:039][483]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Thigh_Right
+[2025.11.06-14.17.08:040][483]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Shin_Right
+[2025.11.06-14.17.08:040][483]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Foot_Right
+[2025.11.06-14.17.08:040][483]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Jaw
+[2025.11.06-14.17.08:041][483]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Neck
+[2025.11.06-14.17.08:041][483]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Head
+[2025.11.06-14.17.08:041][483]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Eye_Right
+[2025.11.06-14.17.08:041][483]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Eye_Left
+[2025.11.06-14.17.08:043][483]PIE: Server logged in
+[2025.11.06-14.17.08:047][483]PIE: Play in editor total start time 0.165 seconds.
+[2025.11.06-14.17.08:123][484]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.11.06-14.17.15:430][670]LogBlueprintUserMessages: [NODE_AddLimbComponent-0] Hello
+[2025.11.06-14.17.20:610][848]LogBlueprintUserMessages: [NODE_AddLimbComponent-0_15] Hello
+[2025.11.06-14.17.26:306][ 40]LogBlueprintUserMessages: [NODE_AddLimbComponent-0_15] Hello
+[2025.11.06-14.17.28:540][116]LogBlueprintUserMessages: [NODE_AddLimbComponent-0_13] Hello
+[2025.11.06-14.17.29:902][158]LogBlueprintUserMessages: [NODE_AddLimbComponent-0_15] Hello
+[2025.11.06-14.17.30:606][179]LogBlueprintUserMessages: [NODE_AddLimbComponent-0_15] Hello
+[2025.11.06-14.17.34:178][287]LogBlueprintUserMessages: [NODE_AddLimbComponent-0_13] Hello
+[2025.11.06-14.17.36:771][365]LogBlueprintUserMessages: [NODE_AddLimbComponent-0] Hello
+[2025.11.06-14.17.38:079][402]LogBlueprintUserMessages: [NODE_AddLimbComponent-0] Hello
+[2025.11.06-14.17.39:381][442]LogBlueprintUserMessages: [NODE_AddLimbComponent-0] Hello
+[2025.11.06-14.17.39:673][450]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.06-14.17.39:674][450]LogWorld: BeginTearingDown for /Game/UEDPIE_0_MainLevel
+[2025.11.06-14.17.39:674][450]LogWorld: UWorld::CleanupWorld for MainLevel, bSessionEnded=true, bCleanupResources=true
+[2025.11.06-14.17.39:675][450]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.06-14.17.39:718][450]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.11.06-14.17.39:733][450]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.06-14.17.39:825][450]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.11.06-14.17.39:825][450]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 74
+[2025.11.06-14.17.39:825][450]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=74, StreamState=4
+[2025.11.06-14.17.39:829][450]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=74, StreamState=2
+[2025.11.06-14.17.39:838][450]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.06-14.17.39:844][450]LogUObjectHash: Compacting FUObjectHashTables data took   3.28ms
+[2025.11.06-14.17.40:564][451]LogPlayLevel: Display: Destroying online subsystem :Context_83
+[2025.11.06-14.18.31:259][893]LogUObjectHash: Compacting FUObjectHashTables data took   3.18ms
+[2025.11.06-14.18.32:395][910]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.06-14.18.32:474][910]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Actors/Robot/LimbComponent] ([2] browsable assets)...
+[2025.11.06-14.18.32:474][910]OBJ SavePackage: Finished generating thumbnails for package [/Game/Actors/Robot/LimbComponent]
+[2025.11.06-14.18.32:474][910]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Actors/Robot/LimbComponent" FILE="../../../../../../Users/Administrator/Documents/Unreal Projects/UnethicalRobot/Content/Actors/Robot/LimbComponent.uasset" SILENT=true
+[2025.11.06-14.18.32:536][910]LogSavePackage: Moving output files for package: /Game/Actors/Robot/LimbComponent
+[2025.11.06-14.18.32:537][910]LogSavePackage: Moving '../../../../../../Users/Administrator/Documents/Unreal Projects/UnethicalRobot/Saved/LimbComponentDFAF73EE42FCD8427925CCAE8B3D8624.tmp' to '../../../../../../Users/Administrator/Documents/Unreal Projects/UnethicalRobot/Content/Actors/Robot/LimbComponent.uasset'
+[2025.11.06-14.18.32:567][910]LogFileHelpers: InternalPromptForCheckoutAndSave took 171.911 ms (total: 24.0 sec)
+[2025.11.06-14.18.32:641][910]LogContentValidation: Display: Starting to validate 1 assets
+[2025.11.06-14.18.32:641][910]LogContentValidation: Enabled validators:
+[2025.11.06-14.18.32:641][910]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.06-14.18.32:641][910]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.06-14.18.32:641][910]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.06-14.18.32:641][910]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.06-14.18.32:641][910]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.06-14.18.32:641][910]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.06-14.18.32:642][910]AssetCheck: /Game/Actors/Robot/LimbComponent Validating asset
+[2025.11.06-14.18.34:481][963]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.11.06-14.18.34:496][963]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.11.06-14.18.34:496][963]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainLevel
+[2025.11.06-14.18.34:504][963]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007883s)
+[2025.11.06-14.18.34:504][963]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainLevel.MainLevel to /Game/UEDPIE_0_MainLevel.MainLevel (0.007960s)
+[2025.11.06-14.18.34:585][963]LogUObjectHash: Compacting FUObjectHashTables data took   3.01ms
+[2025.11.06-14.18.34:594][963]LogChaosDD: Creating Chaos Debug Draw Scene for world MainLevel
+[2025.11.06-14.18.34:598][963]LogPlayLevel: PIE: World Init took: (0.003942s)
+[2025.11.06-14.18.34:600][963]LogAudio: Display: Creating Audio Device:                 Id: 75, Scope: Unique, Realtime: True
+[2025.11.06-14.18.34:600][963]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.11.06-14.18.34:600][963]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.11.06-14.18.34:600][963]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.11.06-14.18.34:600][963]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.11.06-14.18.34:600][963]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.11.06-14.18.34:600][963]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.11.06-14.18.34:600][963]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.11.06-14.18.34:600][963]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.11.06-14.18.34:600][963]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.11.06-14.18.34:600][963]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.11.06-14.18.34:600][963]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.11.06-14.18.34:604][963]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.11.06-14.18.34:617][963]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Scream (WDM))
+[2025.11.06-14.18.34:617][963]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.11.06-14.18.34:617][963]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.11.06-14.18.34:617][963]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.11.06-14.18.34:619][963]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=75
+[2025.11.06-14.18.34:619][963]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=75
+[2025.11.06-14.18.34:623][963]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=75
+[2025.11.06-14.18.34:624][963]LogInit: FAudioDevice initialized with ID 75.
+[2025.11.06-14.18.34:624][963]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=75
+[2025.11.06-14.18.34:624][963]LogAudio: Display: Audio Device (ID: 75) registered with world 'MainLevel'.
+[2025.11.06-14.18.34:624][963]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 75
+[2025.11.06-14.18.34:648][963]LogLoad: Game class is 'FunctionalTestGameMode'
+[2025.11.06-14.18.34:651][963]LogWorld: Bringing World /Game/UEDPIE_0_MainLevel.MainLevel up for play (max tick rate 0) at 2025.11.06-14.18.34
+[2025.11.06-14.18.34:652][963]LogWorld: Bringing up level for play took: 0.003592
+[2025.11.06-14.18.34:656][963]LogOnline: OSS: Created online subsystem instance for: :Context_84
+[2025.11.06-14.18.34:659][963]LogBlueprintUserMessages: [NODE_AddLimbComponent-0] No parent mesh
+[2025.11.06-14.18.34:659][963]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Torso
+[2025.11.06-14.18.34:660][963]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Upperarm_Left
+[2025.11.06-14.18.34:661][963]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Lowerarm_Left
+[2025.11.06-14.18.34:661][963]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Hand_Left
+[2025.11.06-14.18.34:663][963]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Upperarm_Right
+[2025.11.06-14.18.34:663][963]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Lowerarm_Right
+[2025.11.06-14.18.34:664][963]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Hand_Right
+[2025.11.06-14.18.34:665][963]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Hips
+[2025.11.06-14.18.34:665][963]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Thigh_Left
+[2025.11.06-14.18.34:666][963]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Shin_Left
+[2025.11.06-14.18.34:667][963]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Foot_Left
+[2025.11.06-14.18.34:667][963]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Thigh_Right
+[2025.11.06-14.18.34:667][963]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Shin_Right
+[2025.11.06-14.18.34:668][963]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Foot_Right
+[2025.11.06-14.18.34:668][963]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Jaw
+[2025.11.06-14.18.34:668][963]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Neck
+[2025.11.06-14.18.34:669][963]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Head
+[2025.11.06-14.18.34:669][963]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Eye_Right
+[2025.11.06-14.18.34:669][963]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Eye_Left
+[2025.11.06-14.18.34:672][963]PIE: Server logged in
+[2025.11.06-14.18.34:678][963]PIE: Play in editor total start time 0.183 seconds.
+[2025.11.06-14.18.34:770][964]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.11.06-14.18.38:765][ 80]LogBlueprintUserMessages: [NODE_AddLimbComponent-0_0] Hello
+[2025.11.06-14.18.39:327][ 99]LogBlueprintUserMessages: [NODE_AddLimbComponent-0_0] Done Dragging
+[2025.11.06-14.18.41:803][181]LogBlueprintUserMessages: [NODE_AddLimbComponent-0] Hello
+[2025.11.06-14.18.42:829][216]LogBlueprintUserMessages: [NODE_AddLimbComponent-0] Done Dragging
+[2025.11.06-14.18.48:923][433]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.06-14.18.48:923][433]LogWorld: BeginTearingDown for /Game/UEDPIE_0_MainLevel
+[2025.11.06-14.18.48:923][433]LogWorld: UWorld::CleanupWorld for MainLevel, bSessionEnded=true, bCleanupResources=true
+[2025.11.06-14.18.48:924][433]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.06-14.18.48:956][433]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.11.06-14.18.48:966][433]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.06-14.18.49:024][433]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.11.06-14.18.49:024][433]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 75
+[2025.11.06-14.18.49:024][433]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=75, StreamState=4
+[2025.11.06-14.18.49:027][433]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=75, StreamState=2
+[2025.11.06-14.18.49:032][433]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.06-14.18.49:036][433]LogUObjectHash: Compacting FUObjectHashTables data took   2.80ms
+[2025.11.06-14.18.49:379][434]LogPlayLevel: Display: Destroying online subsystem :Context_84
+[2025.11.06-14.19.09:503][141]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 12308.180664
+[2025.11.06-14.19.09:581][144]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.06-14.19.09:581][144]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 12308.232422, Update Interval: 357.302765
+[2025.11.06-14.21.16:424][925]LogUObjectHash: Compacting FUObjectHashTables data took   3.49ms
+[2025.11.06-14.21.17:089][931]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.06-14.21.17:149][931]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Actors/RobotActor] ([2] browsable assets)...
+[2025.11.06-14.21.17:451][931]LogPSOHitching: Encountered 1850 PSO creation hitches so far (541 graphics, 1309 compute). 0 of them were precached.
+[2025.11.06-14.21.18:311][931]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Actors/RobotActor.RobotActor]
+[2025.11.06-14.21.18:311][931]OBJ SavePackage: Finished generating thumbnails for package [/Game/Actors/RobotActor]
+[2025.11.06-14.21.18:311][931]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Actors/RobotActor" FILE="../../../../../../Users/Administrator/Documents/Unreal Projects/UnethicalRobot/Content/Actors/RobotActor.uasset" SILENT=true
+[2025.11.06-14.21.18:366][931]LogSavePackage: Moving output files for package: /Game/Actors/RobotActor
+[2025.11.06-14.21.18:367][931]LogSavePackage: Moving '../../../../../../Users/Administrator/Documents/Unreal Projects/UnethicalRobot/Saved/RobotActor4047B33E486FE2D3C02955AEEAEA0937.tmp' to '../../../../../../Users/Administrator/Documents/Unreal Projects/UnethicalRobot/Content/Actors/RobotActor.uasset'
+[2025.11.06-14.21.18:390][931]LogFileHelpers: InternalPromptForCheckoutAndSave took 1.30 sec (total: 25.3 sec)
+[2025.11.06-14.21.18:466][931]LogContentValidation: Display: Starting to validate 1 assets
+[2025.11.06-14.21.18:466][931]LogContentValidation: Enabled validators:
+[2025.11.06-14.21.18:466][931]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.06-14.21.18:466][931]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.06-14.21.18:466][931]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.06-14.21.18:466][931]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.06-14.21.18:466][931]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.06-14.21.18:466][931]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.06-14.21.18:467][931]AssetCheck: /Game/Actors/RobotActor Validating asset
+[2025.11.06-14.21.26:417][128]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.11.06-14.21.26:430][128]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.11.06-14.21.26:430][128]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainLevel
+[2025.11.06-14.21.26:436][128]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005821s)
+[2025.11.06-14.21.26:436][128]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainLevel.MainLevel to /Game/UEDPIE_0_MainLevel.MainLevel (0.005885s)
+[2025.11.06-14.21.26:509][128]LogUObjectHash: Compacting FUObjectHashTables data took   2.60ms
+[2025.11.06-14.21.26:520][128]LogChaosDD: Creating Chaos Debug Draw Scene for world MainLevel
+[2025.11.06-14.21.26:523][128]LogPlayLevel: PIE: World Init took: (0.003461s)
+[2025.11.06-14.21.26:526][128]LogAudio: Display: Creating Audio Device:                 Id: 76, Scope: Unique, Realtime: True
+[2025.11.06-14.21.26:526][128]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.11.06-14.21.26:526][128]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.11.06-14.21.26:526][128]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.11.06-14.21.26:526][128]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.11.06-14.21.26:526][128]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.11.06-14.21.26:526][128]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.11.06-14.21.26:526][128]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.11.06-14.21.26:526][128]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.11.06-14.21.26:526][128]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.11.06-14.21.26:526][128]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.11.06-14.21.26:526][128]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.11.06-14.21.26:529][128]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.11.06-14.21.26:538][128]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Scream (WDM))
+[2025.11.06-14.21.26:539][128]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.11.06-14.21.26:539][128]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.11.06-14.21.26:539][128]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.11.06-14.21.26:540][128]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=76
+[2025.11.06-14.21.26:540][128]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=76
+[2025.11.06-14.21.26:544][128]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=76
+[2025.11.06-14.21.26:544][128]LogInit: FAudioDevice initialized with ID 76.
+[2025.11.06-14.21.26:544][128]LogAudio: Display: Audio Device (ID: 76) registered with world 'MainLevel'.
+[2025.11.06-14.21.26:544][128]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=76
+[2025.11.06-14.21.26:544][128]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 76
+[2025.11.06-14.21.26:550][128]LogLoad: Game class is 'FunctionalTestGameMode'
+[2025.11.06-14.21.26:552][128]LogWorld: Bringing World /Game/UEDPIE_0_MainLevel.MainLevel up for play (max tick rate 0) at 2025.11.06-14.21.26
+[2025.11.06-14.21.26:553][128]LogWorld: Bringing up level for play took: 0.002772
+[2025.11.06-14.21.26:556][128]LogOnline: OSS: Created online subsystem instance for: :Context_85
+[2025.11.06-14.21.26:558][128]LogPrimitiveComponent: Warning: CreateDynamicMaterialInstance on /Game/UEDPIE_0_MainLevel.MainLevel:PersistentLevel.RobotActor_C_1.Base: Material index 0 is invalid.
+[2025.11.06-14.21.26:558][128]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetParentComponents_Parents' of length 0 in '/Game/Actors/RobotActor.RobotActor_C:ExecuteUbergraph_RobotActor'!
+[2025.11.06-14.21.26:558][128]LogScript: Warning: Script Msg called by: RobotActor_C /Game/UEDPIE_0_MainLevel.MainLevel:PersistentLevel.RobotActor_C_1
+[2025.11.06-14.21.26:558][128]LogBlueprintUserMessages: [RobotActor_C_1] Base
+[2025.11.06-14.21.26:558][128]LogBlueprintUserMessages: [NODE_AddLimbComponent-0_0] No parent mesh
+[2025.11.06-14.21.26:559][128]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Torso
+[2025.11.06-14.21.26:559][128]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Upperarm_Left
+[2025.11.06-14.21.26:560][128]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Lowerarm_Left
+[2025.11.06-14.21.26:560][128]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Hand_Left
+[2025.11.06-14.21.26:561][128]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Upperarm_Right
+[2025.11.06-14.21.26:561][128]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Lowerarm_Right
+[2025.11.06-14.21.26:562][128]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Hand_Right
+[2025.11.06-14.21.26:562][128]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Hips
+[2025.11.06-14.21.26:563][128]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Thigh_Left
+[2025.11.06-14.21.26:563][128]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Shin_Left
+[2025.11.06-14.21.26:563][128]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Foot_Left
+[2025.11.06-14.21.26:564][128]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Thigh_Right
+[2025.11.06-14.21.26:564][128]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Shin_Right
+[2025.11.06-14.21.26:564][128]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Foot_Right
+[2025.11.06-14.21.26:564][128]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Jaw
+[2025.11.06-14.21.26:564][128]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Neck
+[2025.11.06-14.21.26:565][128]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Head
+[2025.11.06-14.21.26:565][128]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Eye_Right
+[2025.11.06-14.21.26:565][128]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Eye_Left
+[2025.11.06-14.21.26:567][128]PIE: Server logged in
+[2025.11.06-14.21.26:571][128]PIE: Play in editor total start time 0.141 seconds.
+[2025.11.06-14.21.26:614][128]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.11.06-14.21.41:751][747]LogBlueprintUserMessages: [NODE_AddLimbComponent-0_0] Hello
+[2025.11.06-14.21.41:836][752]LogBlueprintUserMessages: [NODE_AddLimbComponent-0_0] Done Dragging
+[2025.11.06-14.21.48:843][ 93]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.06-14.21.48:843][ 93]LogWorld: BeginTearingDown for /Game/UEDPIE_0_MainLevel
+[2025.11.06-14.21.48:844][ 93]LogWorld: UWorld::CleanupWorld for MainLevel, bSessionEnded=true, bCleanupResources=true
+[2025.11.06-14.21.48:845][ 93]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.06-14.21.48:874][ 93]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.11.06-14.21.48:890][ 93]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.06-14.21.48:967][ 93]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.11.06-14.21.48:969][ 93]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 76
+[2025.11.06-14.21.48:969][ 93]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=76, StreamState=4
+[2025.11.06-14.21.48:972][ 93]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=76, StreamState=2
+[2025.11.06-14.21.48:982][ 93]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.06-14.21.48:988][ 93]LogUObjectHash: Compacting FUObjectHashTables data took   3.33ms
+[2025.11.06-14.21.49:185][ 94]LogPlayLevel: Display: Destroying online subsystem :Context_85
+[2025.11.06-14.21.49:494][ 96]LogPSOHitching: Encountered 1900 PSO creation hitches so far (563 graphics, 1337 compute). 0 of them were precached.
+[2025.11.06-14.21.59:293][481]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.06-14.21.59:375][481]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MainLevel" FILE="../../../../../../Users/Administrator/Documents/Unreal Projects/UnethicalRobot/Content/MainLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2025.11.06-14.21.59:502][481]LogUObjectHash: Compacting FUObjectHashTables data took   2.79ms
+[2025.11.06-14.21.59:546][481]LogSavePackage: Moving output files for package: /Game/MainLevel
+[2025.11.06-14.21.59:547][481]LogSavePackage: Moving '../../../../../../Users/Administrator/Documents/Unreal Projects/UnethicalRobot/Saved/MainLevelFAD8EDD046388DDF5FA513AC2E098AC3.tmp' to '../../../../../../Users/Administrator/Documents/Unreal Projects/UnethicalRobot/Content/MainLevel.umap'
+[2025.11.06-14.21.59:584][481]LogFileHelpers: Saving map 'MainLevel' took 0.210
+[2025.11.06-14.21.59:610][481]LogFileHelpers: InternalPromptForCheckoutAndSave took 316.977 ms (total: 25.6 sec)
+[2025.11.06-14.21.59:687][481]LogContentValidation: Display: Starting to validate 1 assets
+[2025.11.06-14.21.59:687][481]LogContentValidation: Enabled validators:
+[2025.11.06-14.21.59:687][481]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.06-14.21.59:687][481]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.06-14.21.59:687][481]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.06-14.21.59:687][481]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.06-14.21.59:687][481]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.06-14.21.59:687][481]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.06-14.21.59:688][481]AssetCheck: /Game/MainLevel Validating asset
+[2025.11.06-14.22.00:606][519]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.11.06-14.22.00:619][519]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.11.06-14.22.00:619][519]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainLevel
+[2025.11.06-14.22.00:627][519]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007949s)
+[2025.11.06-14.22.00:627][519]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainLevel.MainLevel to /Game/UEDPIE_0_MainLevel.MainLevel (0.008017s)
+[2025.11.06-14.22.00:693][519]LogUObjectHash: Compacting FUObjectHashTables data took   2.97ms
+[2025.11.06-14.22.00:700][519]LogChaosDD: Creating Chaos Debug Draw Scene for world MainLevel
+[2025.11.06-14.22.00:703][519]LogPlayLevel: PIE: World Init took: (0.003381s)
+[2025.11.06-14.22.00:706][519]LogAudio: Display: Creating Audio Device:                 Id: 77, Scope: Unique, Realtime: True
+[2025.11.06-14.22.00:706][519]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.11.06-14.22.00:706][519]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.11.06-14.22.00:706][519]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.11.06-14.22.00:706][519]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.11.06-14.22.00:706][519]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.11.06-14.22.00:706][519]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.11.06-14.22.00:706][519]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.11.06-14.22.00:706][519]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.11.06-14.22.00:706][519]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.11.06-14.22.00:706][519]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.11.06-14.22.00:706][519]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.11.06-14.22.00:710][519]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.11.06-14.22.00:719][519]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Scream (WDM))
+[2025.11.06-14.22.00:720][519]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.11.06-14.22.00:720][519]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.11.06-14.22.00:720][519]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.11.06-14.22.00:721][519]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=77
+[2025.11.06-14.22.00:721][519]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=77
+[2025.11.06-14.22.00:725][519]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=77
+[2025.11.06-14.22.00:725][519]LogInit: FAudioDevice initialized with ID 77.
+[2025.11.06-14.22.00:725][519]LogAudio: Display: Audio Device (ID: 77) registered with world 'MainLevel'.
+[2025.11.06-14.22.00:725][519]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=77
+[2025.11.06-14.22.00:725][519]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 77
+[2025.11.06-14.22.00:731][519]LogLoad: Game class is 'FunctionalTestGameMode'
+[2025.11.06-14.22.00:734][519]LogWorld: Bringing World /Game/UEDPIE_0_MainLevel.MainLevel up for play (max tick rate 0) at 2025.11.06-14.22.00
+[2025.11.06-14.22.00:735][519]LogWorld: Bringing up level for play took: 0.003155
+[2025.11.06-14.22.00:738][519]LogOnline: OSS: Created online subsystem instance for: :Context_86
+[2025.11.06-14.22.00:740][519]LogPrimitiveComponent: Warning: CreateDynamicMaterialInstance on /Game/UEDPIE_0_MainLevel.MainLevel:PersistentLevel.RobotActor_C_1.Base: Material index 0 is invalid.
+[2025.11.06-14.22.00:740][519]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetParentComponents_Parents' of length 0 in '/Game/Actors/RobotActor.RobotActor_C:ExecuteUbergraph_RobotActor'!
+[2025.11.06-14.22.00:740][519]LogScript: Warning: Script Msg called by: RobotActor_C /Game/UEDPIE_0_MainLevel.MainLevel:PersistentLevel.RobotActor_C_1
+[2025.11.06-14.22.00:740][519]LogBlueprintUserMessages: [RobotActor_C_1] Base
+[2025.11.06-14.22.00:741][519]LogBlueprintUserMessages: [NODE_AddLimbComponent-0_0] No parent mesh
+[2025.11.06-14.22.00:741][519]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Torso
+[2025.11.06-14.22.00:742][519]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Upperarm_Left
+[2025.11.06-14.22.00:743][519]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Lowerarm_Left
+[2025.11.06-14.22.00:743][519]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Hand_Left
+[2025.11.06-14.22.00:744][519]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Upperarm_Right
+[2025.11.06-14.22.00:745][519]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Lowerarm_Right
+[2025.11.06-14.22.00:745][519]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Hand_Right
+[2025.11.06-14.22.00:746][519]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Hips
+[2025.11.06-14.22.00:747][519]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Thigh_Left
+[2025.11.06-14.22.00:747][519]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Shin_Left
+[2025.11.06-14.22.00:747][519]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Foot_Left
+[2025.11.06-14.22.00:748][519]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Thigh_Right
+[2025.11.06-14.22.00:748][519]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Shin_Right
+[2025.11.06-14.22.00:748][519]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Foot_Right
+[2025.11.06-14.22.00:749][519]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Jaw
+[2025.11.06-14.22.00:749][519]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Neck
+[2025.11.06-14.22.00:749][519]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Head
+[2025.11.06-14.22.00:750][519]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Eye_Right
+[2025.11.06-14.22.00:750][519]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Eye_Left
+[2025.11.06-14.22.00:753][519]PIE: Server logged in
+[2025.11.06-14.22.00:756][519]PIE: Play in editor total start time 0.138 seconds.
+[2025.11.06-14.22.00:837][520]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.11.06-14.22.04:053][681]LogBlueprintUserMessages: [NODE_AddLimbComponent-0_9] Hello
+[2025.11.06-14.22.04:136][685]LogBlueprintUserMessages: [NODE_AddLimbComponent-0_9] Done Dragging
+[2025.11.06-14.22.05:242][741]LogBlueprintUserMessages: [NODE_AddLimbComponent-0_9] Hello
+[2025.11.06-14.22.06:002][781]LogBlueprintUserMessages: [NODE_AddLimbComponent-0_9] Done Dragging
+[2025.11.06-14.22.07:186][847]LogBlueprintUserMessages: [NODE_AddLimbComponent-0_8] Hello
+[2025.11.06-14.22.08:691][930]LogBlueprintUserMessages: [NODE_AddLimbComponent-0_8] Done Dragging
+[2025.11.06-14.22.10:167][  9]LogBlueprintUserMessages: [NODE_AddLimbComponent-0_2] Hello
+[2025.11.06-14.22.10:932][ 50]LogBlueprintUserMessages: [NODE_AddLimbComponent-0_2] Done Dragging
+[2025.11.06-14.22.13:324][177]LogBlueprintUserMessages: [NODE_AddLimbComponent-0_6] Hello
+[2025.11.06-14.22.14:136][221]LogBlueprintUserMessages: [NODE_AddLimbComponent-0_6] Done Dragging
+[2025.11.06-14.22.23:493][756]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.06-14.22.23:494][756]LogWorld: BeginTearingDown for /Game/UEDPIE_0_MainLevel
+[2025.11.06-14.22.23:494][756]LogWorld: UWorld::CleanupWorld for MainLevel, bSessionEnded=true, bCleanupResources=true
+[2025.11.06-14.22.23:494][756]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.06-14.22.23:501][756]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.11.06-14.22.23:511][756]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.06-14.22.23:562][756]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.06-14.22.23:563][756]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 77
+[2025.11.06-14.22.23:563][756]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=77, StreamState=4
+[2025.11.06-14.22.23:566][756]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=77, StreamState=2
+[2025.11.06-14.22.23:575][756]LogUObjectHash: Compacting FUObjectHashTables data took   2.71ms
+[2025.11.06-14.22.23:670][757]LogPlayLevel: Display: Destroying online subsystem :Context_86
+[2025.11.06-14.23.41:711][282]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.11.06-14.23.41:725][282]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.11.06-14.23.41:726][282]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainLevel
+[2025.11.06-14.23.41:735][282]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009001s)
+[2025.11.06-14.23.41:735][282]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainLevel.MainLevel to /Game/UEDPIE_0_MainLevel.MainLevel (0.009079s)
+[2025.11.06-14.23.41:810][282]LogUObjectHash: Compacting FUObjectHashTables data took   2.70ms
+[2025.11.06-14.23.41:817][282]LogChaosDD: Creating Chaos Debug Draw Scene for world MainLevel
+[2025.11.06-14.23.41:821][282]LogPlayLevel: PIE: World Init took: (0.004143s)
+[2025.11.06-14.23.41:824][282]LogAudio: Display: Creating Audio Device:                 Id: 78, Scope: Unique, Realtime: True
+[2025.11.06-14.23.41:824][282]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.11.06-14.23.41:824][282]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.11.06-14.23.41:824][282]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.11.06-14.23.41:824][282]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.11.06-14.23.41:824][282]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.11.06-14.23.41:824][282]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.11.06-14.23.41:825][282]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.11.06-14.23.41:825][282]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.11.06-14.23.41:825][282]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.11.06-14.23.41:825][282]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.11.06-14.23.41:825][282]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.11.06-14.23.41:829][282]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.11.06-14.23.41:842][282]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Scream (WDM))
+[2025.11.06-14.23.41:842][282]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.11.06-14.23.41:842][282]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.11.06-14.23.41:842][282]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.11.06-14.23.41:843][282]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=78
+[2025.11.06-14.23.41:843][282]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=78
+[2025.11.06-14.23.41:849][282]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=78
+[2025.11.06-14.23.41:849][282]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=78
+[2025.11.06-14.23.41:849][282]LogInit: FAudioDevice initialized with ID 78.
+[2025.11.06-14.23.41:849][282]LogAudio: Display: Audio Device (ID: 78) registered with world 'MainLevel'.
+[2025.11.06-14.23.41:849][282]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 78
+[2025.11.06-14.23.41:857][282]LogLoad: Game class is 'FunctionalTestGameMode'
+[2025.11.06-14.23.41:860][282]LogWorld: Bringing World /Game/UEDPIE_0_MainLevel.MainLevel up for play (max tick rate 0) at 2025.11.06-14.23.41
+[2025.11.06-14.23.41:860][282]LogWorld: Bringing up level for play took: 0.003391
+[2025.11.06-14.23.41:865][282]LogOnline: OSS: Created online subsystem instance for: :Context_87
+[2025.11.06-14.23.41:867][282]LogPrimitiveComponent: Warning: CreateDynamicMaterialInstance on /Game/UEDPIE_0_MainLevel.MainLevel:PersistentLevel.RobotActor_C_1.Base: Material index 0 is invalid.
+[2025.11.06-14.23.41:867][282]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetParentComponents_Parents' of length 0 in '/Game/Actors/RobotActor.RobotActor_C:ExecuteUbergraph_RobotActor'!
+[2025.11.06-14.23.41:867][282]LogScript: Warning: Script Msg called by: RobotActor_C /Game/UEDPIE_0_MainLevel.MainLevel:PersistentLevel.RobotActor_C_1
+[2025.11.06-14.23.41:867][282]LogBlueprintUserMessages: [RobotActor_C_1] Base
+[2025.11.06-14.23.41:868][282]LogBlueprintUserMessages: [NODE_AddLimbComponent-0_0] No parent mesh
+[2025.11.06-14.23.41:868][282]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Torso
+[2025.11.06-14.23.41:869][282]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Upperarm_Left
+[2025.11.06-14.23.41:869][282]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Lowerarm_Left
+[2025.11.06-14.23.41:870][282]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Hand_Left
+[2025.11.06-14.23.41:871][282]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Upperarm_Right
+[2025.11.06-14.23.41:872][282]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Lowerarm_Right
+[2025.11.06-14.23.41:872][282]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Hand_Right
+[2025.11.06-14.23.41:874][282]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Hips
+[2025.11.06-14.23.41:874][282]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Thigh_Left
+[2025.11.06-14.23.41:875][282]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Shin_Left
+[2025.11.06-14.23.41:875][282]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Foot_Left
+[2025.11.06-14.23.41:876][282]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Thigh_Right
+[2025.11.06-14.23.41:876][282]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Shin_Right
+[2025.11.06-14.23.41:876][282]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Foot_Right
+[2025.11.06-14.23.41:876][282]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Jaw
+[2025.11.06-14.23.41:877][282]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Neck
+[2025.11.06-14.23.41:877][282]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Head
+[2025.11.06-14.23.41:877][282]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Eye_Right
+[2025.11.06-14.23.41:878][282]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Eye_Left
+[2025.11.06-14.23.41:880][282]PIE: Server logged in
+[2025.11.06-14.23.41:886][282]PIE: Play in editor total start time 0.161 seconds.
+[2025.11.06-14.23.41:974][283]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.11.06-14.23.44:852][369]LogBlueprintUserMessages: [NODE_AddLimbComponent-0_2] Hello
+[2025.11.06-14.23.45:715][416]LogBlueprintUserMessages: [NODE_AddLimbComponent-0_2] Done Dragging
+[2025.11.06-14.23.48:589][561]LogBlueprintUserMessages: [NODE_AddLimbComponent-0_0] Hello
+[2025.11.06-14.23.49:614][611]LogBlueprintUserMessages: [NODE_AddLimbComponent-0_0] Done Dragging
+[2025.11.06-14.23.50:717][667]LogBlueprintUserMessages: [NODE_AddLimbComponent-0_0] Hello
+[2025.11.06-14.23.50:808][672]LogBlueprintUserMessages: [NODE_AddLimbComponent-0_0] Done Dragging
+[2025.11.06-14.23.52:636][759]LogBlueprintUserMessages: [NODE_AddLimbComponent-0_0] Hello
+[2025.11.06-14.23.52:715][763]LogBlueprintUserMessages: [NODE_AddLimbComponent-0_0] Done Dragging
+[2025.11.06-14.23.54:048][825]LogBlueprintUserMessages: [NODE_AddLimbComponent-0_0] Hello
+[2025.11.06-14.23.54:131][829]LogBlueprintUserMessages: [NODE_AddLimbComponent-0_0] Done Dragging
+[2025.11.06-14.23.56:614][948]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.06-14.23.56:614][948]LogWorld: BeginTearingDown for /Game/UEDPIE_0_MainLevel
+[2025.11.06-14.23.56:614][948]LogWorld: UWorld::CleanupWorld for MainLevel, bSessionEnded=true, bCleanupResources=true
+[2025.11.06-14.23.56:615][948]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.06-14.23.56:627][948]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.11.06-14.23.56:640][948]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.06-14.23.56:731][948]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.06-14.23.56:731][948]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 78
+[2025.11.06-14.23.56:731][948]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=78, StreamState=4
+[2025.11.06-14.23.56:735][948]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=78, StreamState=2
+[2025.11.06-14.23.56:749][948]LogUObjectHash: Compacting FUObjectHashTables data took   2.88ms
+[2025.11.06-14.23.56:875][949]LogPlayLevel: Display: Destroying online subsystem :Context_87
+[2025.11.06-14.25.42:795][203]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 12701.458008
+[2025.11.06-14.25.43:062][206]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.11.06-14.25.43:062][206]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 12701.638672, Update Interval: 316.946930
+[2025.11.06-14.26.19:197][245]LogUObjectHash: Compacting FUObjectHashTables data took   2.88ms
+[2025.11.06-14.26.20:188][259]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.06-14.26.20:253][259]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Actors/RobotActor] ([2] browsable assets)...
+[2025.11.06-14.26.20:514][259]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Actors/RobotActor.RobotActor]
+[2025.11.06-14.26.20:514][259]OBJ SavePackage: Finished generating thumbnails for package [/Game/Actors/RobotActor]
+[2025.11.06-14.26.20:515][259]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Actors/RobotActor" FILE="../../../../../../Users/Administrator/Documents/Unreal Projects/UnethicalRobot/Content/Actors/RobotActor.uasset" SILENT=true
+[2025.11.06-14.26.20:574][259]LogSavePackage: Moving output files for package: /Game/Actors/RobotActor
+[2025.11.06-14.26.20:574][259]LogSavePackage: Moving '../../../../../../Users/Administrator/Documents/Unreal Projects/UnethicalRobot/Saved/RobotActor948D4DA54EAC71F3BCAB4497A6FBF0AF.tmp' to '../../../../../../Users/Administrator/Documents/Unreal Projects/UnethicalRobot/Content/Actors/RobotActor.uasset'
+[2025.11.06-14.26.20:600][259]LogFileHelpers: InternalPromptForCheckoutAndSave took 411.873 ms (total: 26.0 sec)
+[2025.11.06-14.26.20:653][259]LogContentValidation: Display: Starting to validate 1 assets
+[2025.11.06-14.26.20:653][259]LogContentValidation: Enabled validators:
+[2025.11.06-14.26.20:653][259]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.06-14.26.20:653][259]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.06-14.26.20:653][259]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.06-14.26.20:653][259]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.06-14.26.20:653][259]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.06-14.26.20:653][259]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.06-14.26.20:654][259]AssetCheck: /Game/Actors/RobotActor Validating asset
+[2025.11.06-14.26.22:204][305]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.11.06-14.26.22:217][305]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.11.06-14.26.22:217][305]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainLevel
+[2025.11.06-14.26.22:223][305]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005834s)
+[2025.11.06-14.26.22:223][305]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainLevel.MainLevel to /Game/UEDPIE_0_MainLevel.MainLevel (0.005898s)
+[2025.11.06-14.26.22:286][305]LogUObjectHash: Compacting FUObjectHashTables data took   2.54ms
+[2025.11.06-14.26.22:295][305]LogChaosDD: Creating Chaos Debug Draw Scene for world MainLevel
+[2025.11.06-14.26.22:297][305]LogPlayLevel: PIE: World Init took: (0.002833s)
+[2025.11.06-14.26.22:299][305]LogAudio: Display: Creating Audio Device:                 Id: 79, Scope: Unique, Realtime: True
+[2025.11.06-14.26.22:299][305]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.11.06-14.26.22:299][305]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.11.06-14.26.22:299][305]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.11.06-14.26.22:299][305]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.11.06-14.26.22:299][305]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.11.06-14.26.22:299][305]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.11.06-14.26.22:300][305]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.11.06-14.26.22:300][305]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.11.06-14.26.22:300][305]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.11.06-14.26.22:300][305]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.11.06-14.26.22:300][305]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.11.06-14.26.22:303][305]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.11.06-14.26.22:313][305]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Scream (WDM))
+[2025.11.06-14.26.22:314][305]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.11.06-14.26.22:314][305]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.11.06-14.26.22:314][305]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.11.06-14.26.22:315][305]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=79
+[2025.11.06-14.26.22:315][305]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=79
+[2025.11.06-14.26.22:319][305]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=79
+[2025.11.06-14.26.22:319][305]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=79
+[2025.11.06-14.26.22:319][305]LogInit: FAudioDevice initialized with ID 79.
+[2025.11.06-14.26.22:319][305]LogAudio: Display: Audio Device (ID: 79) registered with world 'MainLevel'.
+[2025.11.06-14.26.22:319][305]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 79
+[2025.11.06-14.26.22:338][305]LogLoad: Game class is 'FunctionalTestGameMode'
+[2025.11.06-14.26.22:342][305]LogWorld: Bringing World /Game/UEDPIE_0_MainLevel.MainLevel up for play (max tick rate 0) at 2025.11.06-14.26.22
+[2025.11.06-14.26.22:342][305]LogWorld: Bringing up level for play took: 0.003396
+[2025.11.06-14.26.22:346][305]LogOnline: OSS: Created online subsystem instance for: :Context_88
+[2025.11.06-14.26.22:347][305]LogBlueprintUserMessages: [RobotActor_C_1] 
+[2025.11.06-14.26.22:347][305]LogPrimitiveComponent: Warning: CreateDynamicMaterialInstance on /Game/UEDPIE_0_MainLevel.MainLevel:PersistentLevel.RobotActor_C_1.Base: Material index 0 is invalid.
+[2025.11.06-14.26.22:347][305]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetParentComponents_Parents' of length 0 in '/Game/Actors/RobotActor.RobotActor_C:ExecuteUbergraph_RobotActor'!
+[2025.11.06-14.26.22:347][305]LogScript: Warning: Script Msg called by: RobotActor_C /Game/UEDPIE_0_MainLevel.MainLevel:PersistentLevel.RobotActor_C_1
+[2025.11.06-14.26.22:348][305]LogBlueprintUserMessages: [RobotActor_C_1] Base
+[2025.11.06-14.26.22:348][305]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Torso
+[2025.11.06-14.26.22:349][305]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Upperarm_Left
+[2025.11.06-14.26.22:349][305]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Lowerarm_Left
+[2025.11.06-14.26.22:349][305]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Hand_Left
+[2025.11.06-14.26.22:350][305]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Upperarm_Right
+[2025.11.06-14.26.22:350][305]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Lowerarm_Right
+[2025.11.06-14.26.22:351][305]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Hand_Right
+[2025.11.06-14.26.22:351][305]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Hips
+[2025.11.06-14.26.22:352][305]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Thigh_Left
+[2025.11.06-14.26.22:352][305]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Shin_Left
+[2025.11.06-14.26.22:352][305]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Foot_Left
+[2025.11.06-14.26.22:353][305]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Thigh_Right
+[2025.11.06-14.26.22:353][305]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Shin_Right
+[2025.11.06-14.26.22:353][305]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Foot_Right
+[2025.11.06-14.26.22:353][305]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Jaw
+[2025.11.06-14.26.22:353][305]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Neck
+[2025.11.06-14.26.22:354][305]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Head
+[2025.11.06-14.26.22:354][305]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Eye_Right
+[2025.11.06-14.26.22:354][305]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Eye_Left
+[2025.11.06-14.26.22:356][305]PIE: Server logged in
+[2025.11.06-14.26.22:360][305]PIE: Play in editor total start time 0.143 seconds.
+[2025.11.06-14.26.22:389][305]LogPSOHitching: Encountered 1950 PSO creation hitches so far (580 graphics, 1370 compute). 0 of them were precached.
+[2025.11.06-14.26.22:448][306]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.11.06-14.26.26:148][425]LogBlueprintUserMessages: [NODE_AddLimbComponent-0_0] Hello
+[2025.11.06-14.26.26:767][448]LogBlueprintUserMessages: [NODE_AddLimbComponent-0_0] Done Dragging
+[2025.11.06-14.26.28:885][532]LogBlueprintUserMessages: [NODE_AddLimbComponent-0_16] Hello
+[2025.11.06-14.26.29:714][560]LogBlueprintUserMessages: [NODE_AddLimbComponent-0_16] Done Dragging
+[2025.11.06-14.26.31:383][616]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.06-14.26.31:383][616]LogWorld: BeginTearingDown for /Game/UEDPIE_0_MainLevel
+[2025.11.06-14.26.31:383][616]LogWorld: UWorld::CleanupWorld for MainLevel, bSessionEnded=true, bCleanupResources=true
+[2025.11.06-14.26.31:384][616]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.06-14.26.31:407][616]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.11.06-14.26.31:421][616]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.06-14.26.31:497][616]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.11.06-14.26.31:499][616]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 79
+[2025.11.06-14.26.31:499][616]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=79, StreamState=4
+[2025.11.06-14.26.31:502][616]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=79, StreamState=2
+[2025.11.06-14.26.31:510][616]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.06-14.26.31:516][616]LogUObjectHash: Compacting FUObjectHashTables data took   3.41ms
+[2025.11.06-14.26.32:022][617]LogPlayLevel: Display: Destroying online subsystem :Context_88
+[2025.11.06-14.27.39:216][182]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.11.06-14.27.39:229][182]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.11.06-14.27.39:229][182]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_MainLevel
+[2025.11.06-14.27.39:237][182]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007622s)
+[2025.11.06-14.27.39:237][182]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/MainLevel.MainLevel to /Game/UEDPIE_0_MainLevel.MainLevel (0.007683s)
+[2025.11.06-14.27.39:306][182]LogUObjectHash: Compacting FUObjectHashTables data took   2.80ms
+[2025.11.06-14.27.39:313][182]LogChaosDD: Creating Chaos Debug Draw Scene for world MainLevel
+[2025.11.06-14.27.39:316][182]LogPlayLevel: PIE: World Init took: (0.003874s)
+[2025.11.06-14.27.39:319][182]LogAudio: Display: Creating Audio Device:                 Id: 80, Scope: Unique, Realtime: True
+[2025.11.06-14.27.39:319][182]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.11.06-14.27.39:319][182]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.11.06-14.27.39:319][182]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.11.06-14.27.39:319][182]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.11.06-14.27.39:319][182]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.11.06-14.27.39:319][182]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.11.06-14.27.39:319][182]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.11.06-14.27.39:319][182]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.11.06-14.27.39:319][182]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.11.06-14.27.39:319][182]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.11.06-14.27.39:319][182]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.11.06-14.27.39:322][182]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.11.06-14.27.39:333][182]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Scream (WDM))
+[2025.11.06-14.27.39:334][182]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.11.06-14.27.39:334][182]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.11.06-14.27.39:334][182]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.11.06-14.27.39:337][182]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=80
+[2025.11.06-14.27.39:337][182]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=80
+[2025.11.06-14.27.39:340][182]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=80
+[2025.11.06-14.27.39:340][182]LogInit: FAudioDevice initialized with ID 80.
+[2025.11.06-14.27.39:340][182]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=80
+[2025.11.06-14.27.39:340][182]LogAudio: Display: Audio Device (ID: 80) registered with world 'MainLevel'.
+[2025.11.06-14.27.39:340][182]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 80
+[2025.11.06-14.27.39:363][182]LogLoad: Game class is 'FunctionalTestGameMode'
+[2025.11.06-14.27.39:366][182]LogWorld: Bringing World /Game/UEDPIE_0_MainLevel.MainLevel up for play (max tick rate 0) at 2025.11.06-14.27.39
+[2025.11.06-14.27.39:367][182]LogWorld: Bringing up level for play took: 0.003140
+[2025.11.06-14.27.39:370][182]LogOnline: OSS: Created online subsystem instance for: :Context_89
+[2025.11.06-14.27.39:372][182]LogBlueprintUserMessages: [RobotActor_C_1] 
+[2025.11.06-14.27.39:372][182]LogPrimitiveComponent: Warning: CreateDynamicMaterialInstance on /Game/UEDPIE_0_MainLevel.MainLevel:PersistentLevel.RobotActor_C_1.Base: Material index 0 is invalid.
+[2025.11.06-14.27.39:372][182]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetParentComponents_Parents' of length 0 in '/Game/Actors/RobotActor.RobotActor_C:ExecuteUbergraph_RobotActor'!
+[2025.11.06-14.27.39:372][182]LogScript: Warning: Script Msg called by: RobotActor_C /Game/UEDPIE_0_MainLevel.MainLevel:PersistentLevel.RobotActor_C_1
+[2025.11.06-14.27.39:372][182]LogBlueprintUserMessages: [RobotActor_C_1] Base
+[2025.11.06-14.27.39:373][182]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Torso
+[2025.11.06-14.27.39:374][182]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Upperarm_Left
+[2025.11.06-14.27.39:375][182]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Lowerarm_Left
+[2025.11.06-14.27.39:375][182]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Hand_Left
+[2025.11.06-14.27.39:376][182]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Upperarm_Right
+[2025.11.06-14.27.39:377][182]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Lowerarm_Right
+[2025.11.06-14.27.39:377][182]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Hand_Right
+[2025.11.06-14.27.39:378][182]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Hips
+[2025.11.06-14.27.39:379][182]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Thigh_Left
+[2025.11.06-14.27.39:380][182]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Shin_Left
+[2025.11.06-14.27.39:380][182]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Foot_Left
+[2025.11.06-14.27.39:380][182]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Thigh_Right
+[2025.11.06-14.27.39:380][182]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Shin_Right
+[2025.11.06-14.27.39:381][182]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Foot_Right
+[2025.11.06-14.27.39:381][182]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Jaw
+[2025.11.06-14.27.39:381][182]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Neck
+[2025.11.06-14.27.39:382][182]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Head
+[2025.11.06-14.27.39:382][182]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Eye_Right
+[2025.11.06-14.27.39:382][182]LogBlueprintUserMessages: [RobotActor_C_1] Robot_Eye_Left
+[2025.11.06-14.27.39:385][182]PIE: Server logged in
+[2025.11.06-14.27.39:389][182]PIE: Play in editor total start time 0.16 seconds.
+[2025.11.06-14.27.39:494][183]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.11.06-14.28.43:252][805]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.06-14.28.43:253][805]LogWorld: BeginTearingDown for /Game/UEDPIE_0_MainLevel
+[2025.11.06-14.28.43:253][805]LogWorld: UWorld::CleanupWorld for MainLevel, bSessionEnded=true, bCleanupResources=true
+[2025.11.06-14.28.43:253][805]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.06-14.28.43:275][805]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.11.06-14.28.43:287][805]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.11.06-14.28.43:349][805]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.11.06-14.28.43:350][805]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 80
+[2025.11.06-14.28.43:350][805]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=80, StreamState=4
+[2025.11.06-14.28.43:353][805]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=80, StreamState=2
+[2025.11.06-14.28.43:363][805]LogUObjectHash: Compacting FUObjectHashTables data took   2.96ms
+[2025.11.06-14.28.43:627][806]LogPlayLevel: Display: Destroying online subsystem :Context_89
+[2025.11.06-14.30.32:338][ 31]LogSlate: Window 'Open Level' being destroyed
+[2025.11.06-14.30.36:065][136]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.06-14.30.36:122][136]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Actors/Robot/LimbComponent] ([2] browsable assets)...
+[2025.11.06-14.30.36:122][136]OBJ SavePackage: Finished generating thumbnails for package [/Game/Actors/Robot/LimbComponent]
+[2025.11.06-14.30.36:122][136]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Actors/Robot/LimbComponent" FILE="../../../../../../Users/Administrator/Documents/Unreal Projects/UnethicalRobot/Content/Actors/Robot/LimbComponent.uasset" SILENT=true
+[2025.11.06-14.30.36:186][136]LogSavePackage: Moving output files for package: /Game/Actors/Robot/LimbComponent
+[2025.11.06-14.30.36:187][136]LogSavePackage: Moving '../../../../../../Users/Administrator/Documents/Unreal Projects/UnethicalRobot/Saved/LimbComponent245D8CB5446785F97F51E8895F1C6392.tmp' to '../../../../../../Users/Administrator/Documents/Unreal Projects/UnethicalRobot/Content/Actors/Robot/LimbComponent.uasset'
+[2025.11.06-14.30.36:209][136]LogFileHelpers: InternalPromptForCheckoutAndSave took 144.607 ms (total: 26.2 sec)
+[2025.11.06-14.30.36:272][136]LogContentValidation: Display: Starting to validate 1 assets
+[2025.11.06-14.30.36:272][136]LogContentValidation: Enabled validators:
+[2025.11.06-14.30.36:272][136]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.06-14.30.36:272][136]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.06-14.30.36:273][136]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.06-14.30.36:273][136]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.06-14.30.36:273][136]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.06-14.30.36:273][136]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.06-14.30.36:273][136]AssetCheck: /Game/Actors/Robot/LimbComponent Validating asset
+[2025.11.06-14.30.43:053][341]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.11.06-14.30.43:116][341]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Actors/RobotActor] ([2] browsable assets)...
+[2025.11.06-14.30.43:846][341]LogPSOHitching: Encountered 2000 PSO creation hitches so far (584 graphics, 1416 compute). 0 of them were precached.
+[2025.11.06-14.30.44:211][341]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Actors/RobotActor.RobotActor]
+[2025.11.06-14.30.44:211][341]OBJ SavePackage: Finished generating thumbnails for package [/Game/Actors/RobotActor]
+[2025.11.06-14.30.44:211][341]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Actors/RobotActor" FILE="../../../../../../Users/Administrator/Documents/Unreal Projects/UnethicalRobot/Content/Actors/RobotActor.uasset" SILENT=true
+[2025.11.06-14.30.44:263][341]LogSavePackage: Moving output files for package: /Game/Actors/RobotActor
+[2025.11.06-14.30.44:263][341]LogSavePackage: Moving '../../../../../../Users/Administrator/Documents/Unreal Projects/UnethicalRobot/Saved/RobotActorFF05FD154BB2C5C0ACDBED86768D69AA.tmp' to '../../../../../../Users/Administrator/Documents/Unreal Projects/UnethicalRobot/Content/Actors/RobotActor.uasset'
+[2025.11.06-14.30.44:281][341]LogFileHelpers: InternalPromptForCheckoutAndSave took 1.22 sec (total: 27.4 sec)
+[2025.11.06-14.30.44:349][341]LogContentValidation: Display: Starting to validate 1 assets
+[2025.11.06-14.30.44:349][341]LogContentValidation: Enabled validators:
+[2025.11.06-14.30.44:349][341]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.11.06-14.30.44:349][341]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.11.06-14.30.44:349][341]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.11.06-14.30.44:349][341]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.11.06-14.30.44:349][341]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.11.06-14.30.44:349][341]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.11.06-14.30.44:350][341]AssetCheck: /Game/Actors/RobotActor Validating asset
