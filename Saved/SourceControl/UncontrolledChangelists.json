@@ -1,0 +1,34 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"C:/Users/Administrator/Documents/Unreal Projects/UnethicalRobot/Content/Actors/Robot/Robot_Toy.uasset",
+				"C:/Users/Administrator/Documents/Unreal Projects/UnethicalRobot/Content/Actors/Robot/Robot_Torso.uasset",
+				"C:/Users/Administrator/Documents/Unreal Projects/UnethicalRobot/Content/Actors/Robot/Robot_Upperarm_Right.uasset",
+				"C:/Users/Administrator/Documents/Unreal Projects/UnethicalRobot/Content/Actors/Robot/Robot_Eye_Left.uasset",
+				"C:/Users/Administrator/Documents/Unreal Projects/UnethicalRobot/Content/Actors/Robot/Robot_Jaw.uasset",
+				"C:/Users/Administrator/Documents/Unreal Projects/UnethicalRobot/Content/Actors/Robot/Robot_Hips.uasset",
+				"C:/Users/Administrator/Documents/Unreal Projects/UnethicalRobot/Content/Actors/Robot/Robot_Thigh_Left.uasset",
+				"C:/Users/Administrator/Documents/Unreal Projects/UnethicalRobot/Content/Actors/Robot/Robot_Shin_Left.uasset",
+				"C:/Users/Administrator/Documents/Unreal Projects/UnethicalRobot/Content/Actors/Robot/Robot_Foot_Left.uasset",
+				"C:/Users/Administrator/Documents/Unreal Projects/UnethicalRobot/Content/Actors/Robot/Robot_Thigh_Right.uasset",
+				"C:/Users/Administrator/Documents/Unreal Projects/UnethicalRobot/Content/Actors/Robot/Robot_Shin_Right.uasset",
+				"C:/Users/Administrator/Documents/Unreal Projects/UnethicalRobot/Content/Actors/Robot/Robot_Foot_Right.uasset",
+				"C:/Users/Administrator/Documents/Unreal Projects/UnethicalRobot/Content/Actors/Robot/Robot_Lowerarm_Right.uasset",
+				"C:/Users/Administrator/Documents/Unreal Projects/UnethicalRobot/Content/Actors/Robot/Robot_Hand_Right.uasset",
+				"C:/Users/Administrator/Documents/Unreal Projects/UnethicalRobot/Content/Actors/Robot/Robot_Upperarm_Left.uasset",
+				"C:/Users/Administrator/Documents/Unreal Projects/UnethicalRobot/Content/Actors/Robot/Robot_Lowerarm_Left.uasset",
+				"C:/Users/Administrator/Documents/Unreal Projects/UnethicalRobot/Content/Actors/Robot/Robot_Hand_Left.uasset",
+				"C:/Users/Administrator/Documents/Unreal Projects/UnethicalRobot/Content/Actors/Robot/Robot_Neck.uasset",
+				"C:/Users/Administrator/Documents/Unreal Projects/UnethicalRobot/Content/Actors/Robot/Robot_Head.uasset",
+				"C:/Users/Administrator/Documents/Unreal Projects/UnethicalRobot/Content/Actors/Robot/Robot_Eye_Right.uasset",
+				"C:/Users/Administrator/Documents/Unreal Projects/UnethicalRobot/Content/Actors/Robot/Robot_Toy_Albedo.uasset",
+				"C:/Users/Administrator/Documents/Unreal Projects/UnethicalRobot/Content/Actors/Robot/Robot_Toy_Metal.uasset",
+				"C:/Users/Administrator/Documents/Unreal Projects/UnethicalRobot/Content/Actors/Robot/Robot_Toy_Normal.uasset"
+			]
+		}
+	]
+}
